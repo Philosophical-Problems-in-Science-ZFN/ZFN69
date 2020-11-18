@@ -1,0 +1,810 @@
+\begin{artengenv}{Zbigniew Semadeni}
+	{Creating new concepts in mathematics: 
+	  freedom and limitations.
+	  The case of\\Category Theory}
+	{Creating new concepts in mathematics: 
+		  freedom and limitations\ldots}
+	{Creating new concepts in mathematics: 
+		  freedom and limitations.\\
+		  The case of Category Theory}
+	{Institute of Mathematics, 
+	  University of Warsaw}
+	{The purpose of the paper is to discuss the problem of possible limitations 
+	of freedom in mathematics and to look for criteria which would help us 
+	to distinguish---in the historical development of mathematics---new concepts 
+	which were natural follow-ups of the previous ones from new concepts which opened 
+	unexpected ways of thought and reasoning. \par
+	The rise of category theory (CT) is analysed, in particular, earlier ideas (which 
+	were precursors of the theory) and its initial development. The question of the 
+	the origin of the term \textit{functor} is discussed; the presented evidence strongly 
+	suggests that Eilenberg and Carnap could have learned the term from Kotarbi{\'n}ski 
+	and Tarski.}
+	{categories, functors, Eilenberg-Mac Lane Program, mathematical 
+	cognitive transgressions, phylogeny, platonism.}
+
+
+
+
+
+
+
+
+\section{Introduction}
+\lettrine[loversize=0.13,lines=2,lraise=-0.03,nindent=0em,findent=0.2pt]%
+{T}{}he celebrated dictum of Georg Cantor that ``The very essence of mathematics lies 
+precisely in its freedom'' expressed the idea that in mathematics one can freely 
+introduce new notions (which may, however, be abandoned if found unfruitful or 
+inconvenient).\footnote{The italics in the original sentence ``Das \textit{Wesen 
+der Mathematik} liegt gerade in ihrer \textit{Freiheit}'' are Cantor's. 
+The first version was published in 1879, reprinted in \parencite[p.34]{Cantor}, discussed 
+by \citeauthor{Ferreiros} \parencite*[p.257]{Ferreiros}. } %%% koniec footnote
+This way Cantor declared his opposition to claims of Leopold Kronecker who objected 
+to the free introduction of new notions (particularly those related to the infinite). 
+
+Some years earlier Richard Dedekind stated that---by forming, in his theory, a cut 
+for an irrational number---we \textit{create} a new number. For him this was an example 
+of a constructed notion which was a free creation of the human mind \parencite[\S~4]{Stetigkeit}. 
+
+In 1910 Jan Łukasiewicz distinguished \textit{constructive notions} from empirical 
+\textit{reconstructive} ones. He referred (with reservation) to Dedekind’s statement 
+and pointed out that a consequence of our ``creation'' of those notions is the 
+ spontaneous emergence of countless relations which no more depend on our will. 
+
+Until the discovery of non-Euclidean geometries, geometry was regarded as an 
+abstraction of the spatial reality. The freedom of creation in geometry was 
+limited by this reality. Hilbert advocated a formal point of view, broadening the 
+freedom of choosing the axioms, while Poincar\'e maintained that the axioms of 
+geometry are conventions.
+ 
+Clearly, the freedom of mathematics is limited by logical constraints. At the same 
+time, logical inference yields deep meaning to mathematics. As Michał Heller put it, 
+``If I accept one sentence, I must also accept another sentence. Why must I? 
+Who forces me? 
+Nobody. Yet, I must. Generally, we bear badly any restrictions of our liberty, but 
+in the case of mathematical deduction inevitability of the conclusion gives us the 
+feeling of safety (I have not deviated from the way) and of the accompanying 
+intellectual comfort, sometimes even great joy'' \parencite[p.21]{Heller}. 
+
+A mathematician trying to prove a theorem knows the feeling of an invisible wall 
+which blocks some intended arguments. Also new concepts must be consistent with 
+earlier ones and must not lead to contradiction or ambiguity. Moreover, in 
+mathematical practice, only intersubjective mental constructions are accepted.  
+
+The purpose of this paper\footnote{The present paper is based on a talk delivered 
+at XXIII Kraków Methodological Conference 2019: {\it Is Logic a Physical Variable?}, 
+7-9 November 2019.} % koniec footnote
+is to look for restraints and patterns in the historical development of 
+mathematics.\footnote{ The significant question of degree of freedom in mathematical 
+conceptualization of physical reality is not considered here.}  % koniec footnote
+Some types of paths will be distinguished, first generally, in the context of 
+the historical development of mathematics, and then they will be used to highlight 
+some features of the rise of category theory (CT). 
+
+Michael Atiyah, in his \textit{Fields Lecture} at the World Mathematical Year 2000 
+in Toronto, expressed his view that ``it is very hard to put oneself back in 
+the position of what it was like in 1900 to be a mathematician, because so much 
+of the mathematics of the last century has been absorbed by our culture, by us. 
+It is very hard to imagine a time when people did not think in those terms. In fact, 
+if you make a really important discovery in mathematics, you will then get omitted 
+altogether! You simply get absorbed into the background'' \parencite[p.1]{Atiyah}. 
+
+This statement may be appear startling, as the mathematical meaning of a text from 
+around 1900 is generally believed to be time-proof. Yet what Atiyah had in mind was 
+not the meaning of published texts---definitions, theorems and proofs---
+but the way mathematicians thought at that time. 
+
+It was 75 years ago when the celebrated paper by 
+%Samuel Eilenberg and Saunders Mac Lane 
+\citeauthor{E-ML} was published.\footnote{Mac Lane earlier in his life (in particular 
+in \parencite{E-ML} and \parencite{Duality} wrote his name as MacLane. Later he 
+began inserting a space into his surname, in particular in \parencite{Working}. } 
+This event marked the rise of category theory (CT). As the 
+development of mathematics accelerated in the second half of the 20\textsuperscript{th} century, 
+it may be hard to fully imagine how mathematicians thought in 1945. Their 
+definitions, theorems and comments are clear, but one should be aware that a 
+reconstruction of their ideas, their thinking may be specifically biased by our 
+present understanding of the mathematical concepts involved. 
+
+\section{Background conceptions}
+The main ideas of this paper---which includes a very wide spectrum 
+of examples, from ancient Greek mathematics to modern, from children’s counting 
+to CT---are the following: 
+\begin{itemize} 
+\item A mathematical concept, no matter how novel, is never independent of the 
+previous knowledge; it is based on a reorganization of existing ideas. 
+\item A radically new mathematical idea never germinate in somebody's mind 
+without a period of incubation, usually a lengthy one. 
+\item There is a long distance to cover between: \par 
+(1) a spontaneous, unconscious use of a mathematical idea or structure in a concrete 
+setting, \par 
+(2) a conscious, systematic use of it. 
+\item A person who has achieved a higher level of mathematical thinking is often 
+unable to imagine thinking of a person from another epoch or of a present learner 
+and, consequently, may unconsciously attribute to him/her an inappropriate (to high 
+or too low) level of thinking.  
+\end{itemize}
+
+\subsection{Transgressions}
+A \textit{mathematical cognitive transgression} (or briefly: a \textit{transgression}) 
+is defined as crossing---by an individual or by a scientific community---of 
+a previously non-traversable limit of own mathematical knowledge or 
+of a previous barrier of deep-rooted convictions. Moreover, it is assumed that: \par
+\begin{enumerate} 
+\item the crossing concerns a (broadly understood) mathematical idea and the difficulty 
+is inherent in the idea, 
+\item the crossing is critical to the development of the idea and related 
+concepts, 
+\item it is a passage from a specified lower level to a new specified upper level, 
+\item the crossing is a result of conscious activity (the activity need not 
+be intentional and purposely orientated towards such crossing; generally such 
+effect is not anticipated in advance and may even be a surprise). 
+\end{enumerate} 
+
+In the history of mathematics there were numerous transgressions, of different 
+importance, some great ones and many ``mini-transgressions''. Usually they were 
+not single acts---they involved a global change of thinking which matured for 
+years or even generations and they based on the work of many people. In ancient 
+times two transgressions were the most significant: 
+\begin{itemize}
+\item The transition from practical dealing with specific geometric shapes to deductive 
+geometry.  
+\item The celebrated discovery (in the 5\textsuperscript{th} century BC) that the diagonal of a 
+square is incommensurable with its side, that they are 
+\textgreek{'alogos} 
+(\textit{a-logos}), without a ratio, irrational (in modern setting, foreign to Greek 
+thinking, it was the irrationality of $\sqrt{2}$) \cite[pp.80-81]{Baszmakowa}. 
+The Pythagorean paradigm was undermined by this \textgreek{apor'ia}.
+Their understanding of mathematics was eroded. However, nothing certain is 
+known about this discovery. Stories presented in popular books are based on 
+doubtful legends from sources written seven or eight centuries later 
+\parencite[p.21, 51]{Knorr}. This incommensurability could not be a single 
+discovery by an individual. It must have been a lengthy process. Never in the 
+historical development of mathematics such a major change occurred in short time. 
+\end{itemize}
+
+\noindent In modern history there were many transgressions. Let us list some of 
+the best known: 
+
+\begin{itemize}
+\item Acceptance of negative numbers.
+\item The transition from potential infinity (infinity at a \textit{process} 
+level) to the \textit{actual} infinity (infinity as an object). 
+\item The emergence of projective geometry.  
+\item The discovery of non-Euclidean geometries. 
+\end{itemize}
+
+\noindent We will discuss the case of CT, arguing in particular that creating the 
+theory of \textit{elementary topoi} in CT should be regarded as a major transgression. 
+
+\subsection{Phylogeny and ontogeny}
+The term \textit{phylogeny} refers here to the evolutionary history of mathematics 
+(or rather to its modern reconstructions), from ancient times on. 
+\textit{Ontogeny} means the development of basic mathematical concepts and 
+structures in the mind of an individual person, from early childhood. Phylogeny and 
+ontogeny are in some sense complementary descriptions \parencites[][]{HF}[][pp.4-29]{P-G}.
+%% Freudenthal, Piaget-Garcia 
+
+In case of mathematics, the oft-quoted phrase: \textit{ontogeny recapitulates 
+phylogeny} implies that one can learn from the history of old mathematics for the 
+sake of present teaching. This sometimes gives useful hints, e.g. one may argue that 
+since the historical process of forming the general concept of a function took 
+centuries (from Descartes, if not much earlier, to Peano and Hausdorff), we should 
+not expect that a secondary school student can grasp it---learning Dirichlet’s 
+description---after a few lessons. The general concept of the function was not 
+yet quite clear to mathematicians of the first half of the 19\textsuperscript{th} century 
+\parencites[][Appendix 2]{Lakatos}{Youschkevitsch}[][pp.27--30]{Ferreiros}. 
+
+On the other hand, the idea that ontogeny recapitulates phylogeny may be misleading. 
+Piaget always stressed that arithmetic cognition results from logico-mathematical 
+experience with concrete objects, pebbles say, and is educed from \textit{the 
+child’s actions} rather than from heard words. It is abstracted from a coordination of 
+intentional motions and accompanying thoughts. Nevertheless, Piaget was in favour 
+of the phylogeny-ontogeny parallelism and reasoned roughly as follows. Since 
+one-to-one correspondence preceded numerical verbal counting in the very early 
+periods of human civilization (evidenced on artefacts such as notched bones and 
+also found in rude unlettered tribes), the same should apply to children. Cantor’s 
+theory of cardinal numbers confirmed this thinking \parencite[pp.259--260]{B-P}.
+Consequently, Piaget and many educators insisted on one-to-one correspondence 
+as a foundation of early school arithmetic, neglecting the fact that nowadays 
+children learn number names early, often together with learning to speak, and 
+moreover counting is now deeply rooted culturally. Research evidence shows that 
+counting, rather than one-to-one correspondence, is a basis of the child’s 
+concept of number \parencite[pp.77--82]{G-G}.
+In this way the phylogeny–ontogeny parallelism adversely affected early mathematics 
+education in the time of the `New Math' movement. 
+
+Hans Freudenthal, in the context of mathematics, suggested the converse idea: 
+\textit{What can we learn from educating the youth for understanding the past of 
+mankind?} \,This reverses the traditional direction of inference in the 
+phylogeny–ontogeny parallelism. In particular, one may ask whether contemporary 
+knowledge of the difficulties in the transition from the concrete to more abstract 
+mathematical reasoning of children may be helpful in better understanding of 
+limitations of our reconstructions of the development of the early Greek mathematics.  
+
+In the sequel, certain aspects of the development will be traced both in phylogeny 
+and in ontogeny, inextricably % [nierozdzielnie] 
+intertwined with the the mathematical questions themselves. 
+
+\subsection{Platonizing constructivism in mathematics}
+The theoretical framework of the paper is platonizing constructivism in mathematics. 
+It is assumed that: 
+\begin{itemize} 
+\item each of the three major positions in the philosophy of mathematics from the beginning of 
+the 20th century: \textit{platonism}, \textit{constructivism}, \textit{formalism} 
+describes some inherent, complementary features of mathematics; 
+\item they can be reconciled provided that they are regarded as \textit{descriptive}, 
+as an account of some inherent features of mathematics, and \textit{not normative}, 
+i.e., when one skips the eliminating words (as `only', `oppose') which explicitly deny 
+other standpoints. Moreover, various versions of the three positions often overlap. 
+\end{itemize}
+
+\noindent In the sequel, the term \textit{constructivism} will not be understood as in papers on 
+foundations of mathematics, but rather in a way akin to its meaning in research on mathematics 
+education, related to post-Piagetian psychological versions of constructivism. 
+Briefly, one assumes here that humans construct mathematical concepts in their minds  
+and discover their properties. A~concept develops its necessary structure 
+as a consequence of its context and---in the long term---becomes 
+\textit{cristalline} in the sense of David \citeauthor{Tall} \parencite*[p.27]{Tall}; then its 
+properties appear independent of our will. 
+This phenomenon may be traced both in phylogeny and in ontogeny. 
+Moreover, in each essential progression, new mental structures are build on the 
+preceding ones and are always integrated with previous ones \parencite[pp.22--29]{P-G}.  
+
+By platonizing constructivism we mean an analysis---in constructivistic terms 
+--- of sources and consequences of the platonistic attitude of a majority of 
+mathematicians and contrasting them with the well-known difficulties of consistent 
+platonism in the philosophy of mathematics. 
+
+\section{Developmental successors}
+After the introductory examples we now look for ways to distinguish between: 
+\begin{itemize}
+\item mathematical concepts which---historically---were natural successors to 
+previous ones,  
+\item concepts which could be conceived and defined only 
+after opening new paths of thought and reasoning. 
+\end{itemize}
+
+\noindent The following metaphorical labels will be used: \textit{onward development}, 
+\textit{branching-off},    %%% \textit{merging}, 
+\textit{upward development}, \textit{downward development}, interpreted with 
+examples. We do not expect to find clear criteria, but the ensuing discussion 
+may be illuminating. 
+
+The \textit{emergence of numerals} in the Late Stone Age is evidenced by tally 
+marks (in the form of notched bones). Ethnologists have found that early tribes 
+had only two counting words: \textit{one} and \textit{two}, followed by \textit{many}. 
+Also in present Indo-European languages these two numbers and their ordinal 
+counterparts are linguistically different from the following numbers. 
+It has been suggested that the proto-Indo-European number *\textit{trei} (three) was 
+derived from the verb *\textit{terh} (meaning: \textit{pass}); thus, the word 
+\textit{three} is related to \textit{trans}. This may be a hint of a very ancient 
+mental obstacle between numbers \textit{two} and \textit{three}. 
+
+One may conjecture that \textit{after the passage from 2 to 3 there was no notable 
+obstacle to gradual development of unlimited counting}. Of course, the actual 
+development took centuries, if not millennia. Anyway, for present children 
+there is no hurdle between 2 and 3, as they are taught counting very early. 
+Moreover, counting starts to make sense with three items. 
+
+\subsection{Onward development}
+Onward development of indefinite counting includes its \textit{developmental 
+successors}: simple addition of natural numbers (which develops through a stage 
+called \textit{count all} and then a more advanced stage \textit{count on}), 
+subtraction (as taking away), multiplication, division (originally there are two 
+kinds of it: \textit{equal sharing} and \textit{equal grouping}), and even simple 
+powers, all within some range of natural numbers.  
+
+These concepts are included in the onward development of counting, by virtue of 
+the following features: 
+
+\begin{itemize}
+\item \textit{no branching}: each new concept naturally comes after the previous ones; 
+\item \textit{ontological stability}: each concept (e.g., number 17, product 
+\mbox{$3\times 6$}), remains essentially the same object, although the related 
+ideas are enriched after each extension of the scope of arithmetic and---in the 
+historical development---are subject to evolutionary changes.
+\end{itemize}
+
+The conception of developmental successors, outlined here, does not take into account 
+a relative difficulty of concepts; what is crucial is whether they follow the previous 
+lines of thinking. 
+
+\subsection{Branching-off}
+This conception arises from a negation of the first requirement in the description 
+of an onward development. An example of it are fractions, which \textit{branch off} 
+from natural numbers; it is not onward development, although there are many ties 
+between natural numbers and fractions. 
+
+There are two ways of introducing fractions to children. In the first, some 
+idealized whole is divided into $m$ equal parts and then $n$ of them are taken. 
+In the second, $n$ whole things are equally divided into $m$ parts. 
+They are two main aspects of the concept of a fraction. For instance, $\frac{3}{4}$ 
+of pizza may be obtained by cutting it into 4 parts and taking 3 such parts 
+(thus $\frac{3}{4} = 3 \times \frac{1}{4}$). A more advanced way of thinking of 
+$\frac{3}{4}$ is 3 divided by 4; the latter may be explained with the example 
+of 3 pizzas to be divided among 4 persons. 
+
+The distinction looks quite elementary. Yet, it was significant in the phylogeny 
+of fractions. First procedure is akin to that of ancient Egyptians, the 
+second -- to Greek ratios; both were inherited by Arabic mathematicians. In the 
+ontogeny the two ways are always present, but not necessarily noticed. The 
+following reminiscence by William Thurston (1946-2012), written 8 years after 
+he had received Fields Medal, describes his discovery of the identification of 
+previously different objects. 
+
+\myquote{
+I remember as a child, in fifth grade, coming to the amazing (to me) realization 
+that the answer to 134 divided by 29 is $134/29$ (and so forth). What a tremendous 
+labor-saving device! To me, `134 divided by 29' meant a certain tedious chore, 
+while $134/29$ was an object with no implicit work. I went excitedly to my father 
+to explain my major discovery. He told me that of course this is so, $a/b$ and 
+$a$ divided by $b$ are just synonyms. To him it was just a small variation in 
+notation \parencite[p.848]{Thurston}.
+}
+
+\noindent The fraction $\frac{a}{b}$ becomes identified with the result of division 
+$a\div b$ and---in this synthesis---they both form a single mathematical object. 
+Philosophically, however, it is an ontological change: two different beings, results 
+of two different mental constructions, become regarded as a single one. 
+
+Onward branching-off can be traced in many parts of mathematics.  
+Calculus branches off from a theory of the field of real numbers (axiomatic or 
+based on a construction). 
+Infinite sequences of real numbers branch off from elementary algebra of real numbers. 
+Limits of sequences branch off from general theory of sequences. 
+These examples vividly show that the question of distinguishing branching-off from 
+onward development is delicate, as the criteria are far from being precise, but it 
+may contribute to better understanding the historical development of mathematics. 
+
+\subsection{Upward development and downward development}
+By \textit{upward development} of a piece of mathematics we mean passing from some 
+concepts and relations between them to a more abstract version of them. Examples: 
+\begin{itemize}
+\item Transition from practical addition (verbalized as, e.g., \textit{two and 
+three make five}) to symbolic version (e.g., 2+3=5) took centuries (the sign $+$ 
+appeared in some 15\textsuperscript{th} century records; the first occurrence of the equality 
+sign $=$ was found in a text by a Welsh mathematician Robert Recorde from 1557). 
+\item Transition from $\mathbb{R}^n$ 
+to an axiomatically given vector space over $\mathbb{R}$.  
+\item Transition from a vector space over $\mathbb{R}$ 
+to a vector space over a field. 
+\item Transition from group theory to the category \textbf{Grp}. 
+\item Transition from a category to a metacategory (in the sense 
+of \parencite[pp.7--11]{Working}). 
+\end{itemize}
+
+\textit{Downward development} is---in some sense---an inverse process, 
+to more concrete questions or to a lower level of abstraction, so the above examples 
+may be used the other way round. Also some typical applications of mathematics 
+may be included here, e.g., the passage from abstract Boolean algebras to a 
+description of certain types of electrical circuits (as conceived by Claude \citeauthor{Shannon_symbolic_1936}~\parencite*{Shannon_symbolic_1936}).
+
+In the 20\textsuperscript{th} century the mathematics grew rapidly and the upward development became 
+much easier mentally as a result of both: a general change of the attitude of 
+mathematicians toward abstraction and the routine of expressing all concepts in 
+the language of set theory. 
+Branching-off were so frequent that the above metaphors are of little use. 
+There is, however, a notable exception: a new theory which opened a new direction 
+of thinking, so its beginnings may be discussed in a way akin to that used with 
+respect to distant past.   
+
+\section{The rise of category theory (CT)}
+A very special feature of CT is that it has a pretty precise date of its official 
+birth: the publication of the paper by Samuel Eilenberg and Saunders Mac Lane 
+\parencite*{E-ML}. It was presented at a meeting of the American Mathematical Society in 
+1942 and published in 1945.
+
+According to the Stanford Encyclopedia of Philosophy, \textit{CT ``appeared almost out 
+of nowhere''}. Not quite so. As in any mathematical theory, some CT ideas had been 
+conceived much earlier, particularly in algebraic topology, and some of them can 
+be traced to the 19\textsuperscript{th} century. 
+
+Many conceptual transformations---either explicit and well recognized or 
+used implicitly, without awareness---contributed to the rise of CT. Going back,  
+a significant factor was the historic development of the mathematical concept of 
+a function. 
+
+Until the beginning of the 19\textsuperscript{th} century, a general symbol for a function ($f$ or 
+$\varphi$) was almost non-existent \parencite{Youschkevitsch}. 
+A significant step toward CT was the general notion of a mapping introduced by 
+Dedekind in 1888. In his \textit{Enkl{\"a}rung} (\textit{explanation}) 
+he did not define the concept of \textit{Abbildung} $\varphi$ (literally: 
+\textit{image} or \textit{representation}) from a set (\textit{System}) $S$ into a set 
+$S^\prime$, but interpreted it generally as an arbitrary law (\textit{Gesetz}) according 
+to which to each element $s$ there corresponds (\textit{geh{\"o}rt}) a certain 
+thing (\textit{Ding}) $S^\prime = \varphi(s)$, called the image (\textit{Bild}) 
+of~$s$. He also defined a composed mapping (\textit{zusammengesetzte Abbildung}) 
+$\vartheta(s) = \psi(s^\prime) = \psi(\varphi(s))$ of two given ones, denoted 
+as $\varphi.\psi$ or $\varphi\psi$, defined injective mappings (\textit{{\"a}hnlich} 
+or \textit{deutlich}), the inverse mapping and proved their main properties 
+\parencites[][\S2--4]{Was_sind}[][p.88--90, 228--229]{Ferreiros}.
+
+Emmy Noether in her lectures in the 1920s emphasised the role of homomorphisms 
+in group theory. Before her, groups were understood as generators and relations 
+(in modern terms, as quotients of free groups). She also argued that the homology 
+of a space is a group, is an algebraic system rather than a set of numbers assigned 
+to the space. Her lectures and the lectures of Emil Artin formed a basis for the 
+celebrated book by van der Waerden \parencite*{Waerden} on modern algebra. This current 
+of thought led to CT.
+
+Generally, in the symbol of the type $f(x)$, the part $f$ was always understood 
+as fixed and $x$ was a variable. At the end of the 1920s, however, in functional 
+analysis and related fields, a new way of thinking emerged. In certain situations 
+the roles of symbols in $f(x)$ reversed: the point $x$ was regarded as fixed while 
+the function $f$ became a variable (as an element of a function space), e.g., 
+$x\in [0,1]$ was fixed and $f$ was a variable in the space $C([0,1])$ of continuous 
+functions on the interval $[0,1]$. In this new role, the point $x$ became a functional 
+$\delta_x$ on $C([0,1])$. Such a change of the roles function-element became crucial, 
+e.g., in the Potryagin duality of locally compact abelian groups \parencite{Hewitt} 
+and in Gelfand’s theory of commutative Banach algebras. It was also used by \citeauthor{E-ML} 
+in their first example (finite dimensional vector spaces 
+and their dual spaces) motivating the concept of a natural equivalence.  
+
+A crucial example of a contravariant functor was the adjoint $T^\ast$ of a linear 
+operator $T$ on a Hilbert space, introduced in 1932 by John von Neumann.\footnote{\citeauthor[p.330]{Century} tells a story how Marshall Stone advised von Neumann to introduce the symbol $T^\ast$ and how it changed the publication. He also 
+mentions a fact which may interests philosophers: in 1929 von Neumann lectured in 
+G{\"o}ttingen and presented his axiomatic definition of a Hilbert space, while David 
+Hilbert---listening to it---evidently thought of it as of the concrete 
+space $\ell^2$, not in the axiomatic setting.} % koniec footnote
+
+According to Mac Lane, abstract algebra, lattice theory and universal algebra were 
+necessary precursors for CT. However, he also suggested that certain notational 
+devices preceded the definition of a category. One of them was the fundamental idea 
+of representing a function by an arrow $f\colon X\to Y$, which first appeared in 
+algebraic topology about 1940, probably introduced by Polish-born topologist Witold 
+Hurewicz \parencites[][p.29]{Working}[][p.333]{Century}. Originally, it looked as just 
+another symbol, but from a later perspective the use of such symbol was one of the 
+key changes. Thus, a notation (the arrow) led to a concept (category). Such new symbols 
+later got absorbed into the background of mathematical thinking, used as something 
+obvious. Together with commutative diagrams, which were probably also first used by 
+Hurewicz, they paved the way to CT. 
+
+Mac Lane often accented two features of mathematics: computational and conceptual. 
+He noted that the initial discovery of CT came directly from a problem of calculation 
+in algebraic topology \parencite[p.333]{Century}.
+
+Eilenberg and Mac Lane were aware that they introduced very abstract mathematical 
+tools, which did not fit any algebraic system in the Garrett Birkhoff's universal 
+algebra. It might seem too abstract and was certainly off beat and a ``far out'' 
+endeavour. Although it was carefully prepared, it might not have 
+seen the light of day \parencite[p.130]{MLonE}.
+
+\subsection{The origin of the term \textit{functor} }
+Mac Lane has written ``\textit{Categories, functors, and natural transformations 
+were discovered by Eilenberg–Mac Lane in 1942}'' \parencite[p.29]{Working}. The word 
+``discovered'' may be regarded as an indication of a hidden Platonistic attitude 
+of Mac Lane, in spite of his verbal declarations against
+Platonism \parencites[][pp.447--449]{Form}[][]{Krol}[][]{Skowron}. He also wrote: 
+
+\myquote{
+  Now the discovery of ideas as general as these is chiefly the willingness to 
+  make a brash or speculative abstraction, in this case supported by the pleasure 
+  of purloining words from the philosophers: ``Category'' from Aristotle and Kant, 
+  ``Functor'' from Carnap (\textit{Logische Syntax der Sprache}) 
+  \parencite[pp.29--30]{Working}.
+}
+
+\noindent This sentence has been taken very seriously by several authors. However, 
+the way it was phrased suggests that it was rather intended to be a delicate 
+joke.\footnote{ Let us note that the noun \textit{brash} means a mass of fragments; 
+according to \textit{Cambridge International Dictionary of English} (1995), the 
+adjective \textit{brash} is disapproving, referring to people who show too much 
+confidence and too little respect, while \textit{Webster's New World Dictionary} 
+(1984) lists---as meanings of \textit{brash}---also \textit{hasty and reckless}, 
+\textit{offensively bold}. On the other hand, the word \textit{purloining} means 
+\textit{stealing} or \textit{borrowing without permission}. Such a comment (with 
+the word \textit{pleasure}) by Mac Lane concerning CT could not be serious. On the 
+other hand, in 2002 Mac Lane came back to Carnap, adding: 
+``Also the terminology was largely purloined: “category” from Kant, “natural” 
+from vector spaces and “functor” from Carnap. (It was used in a different sense in 
+Carnap’s influential book \textit{Logical Syntax of Language}; I had reviewed the English 
+translation of the book (in the Bulletin AMS 1938) and had spotted some errors; 
+since Carnap never acknowledged my finding, I did not mind using his 
+terminology)'' % end quote ital.
+\parencite[pp.130--131]{MLonE}.} % end of footnote
+Attributing the origin of the term \textit{category} to Aristotle and Kant is clear, 
+although in 1899 Ren\'e-Louis Baire (in his \textit{Th\`ese}) introduced---in 
+another context---the word \textit{category} to 
+mathematics.\footnote{ A subset $A$ of a topological space $X$ is called \textit{a 
+set of first category} (\textit{un ensemble de pre\-mi\`ere cat\'e\-gorie}) in $X$ 
+iff $A$ is the union of a countable family of nowhere dense sets; otherwise it is 
+\textit{a set of the second category} (\textit{Menge erster und zweiter Kategorie}). 
+The celebrated \textit{Baire category theorem} states, in a generalized form, 
+that a complete metric space is not a set 
+of the first category \parencites[][p.328]{Hausdorff}[][\S~10]{Kuratowski}. The 
+clumsy term \textit{set of the first category} was later replaced by the term 
+a~\textit{meager set} \parencite[p.201]{Kelley}. In the 1930s Baire category theorem 
+was a very popular tool in the Warsaw school of topology, so Eilenberg must have 
+known it.} % end of footnote
+Concerning the origin of the term \textit{functor} in CT, one may recall the 
+following facts:\footnote{ The author is indebted to Professor Jan Wole\'nski 
+for the relevant information.} 
+
+\begin{itemize}
+\item In Rudolf Carnap's book \textit{Abriss der Logistik} \parencite{Abriss} the term ``Funktor'' does not appear. 
+\item In 1929 the Polish term ``funktor'' was used in propositional calculus by 
+Tadeusz Kotarbi\'nski in his book \parencite{Kotarbinski}.
+\item Alfred Tarski often emphasised that Kotarbi\'nski had been his teacher 
+\parencite[part~2]{Feferman}. 
+\item Carnap met Tarski in Vienna in February 1930 and visited Warsaw in November 
+1930; he learned much from Tarski. 
+\item In 1933 Tarski, in the Polish version of his famous paper \textit{On the 
+concept of truth in formal languages} \citeauthor{Tarski} \parencite*{Tarski} used the term ``funktor'' 
+and mentioned that he owed the term to Kotarbiński.  
+\item Carnap used the term ``Funktor''  in his book \parencite*{Logische} (quoted 
+by Mac Lane) in a sense more general than that of Kotarbi\'nski and Tarski. 
+\item Eilenberg studied mathematics in Warsaw from 1930. In 1931 he attended 
+Tarski's lectures on logic \parencite[part~3 and~12]{Feferman}. He left Warsaw in 1939. 
+\end{itemize}
+
+This evidence strongly suggests that both Carnap and Eilenberg could have learned, 
+independently, the term from Kotarbi{\'n}ski and Tarski.
+
+\subsection{Was the original CT an onward development of previous mathematical theories?}
+Using a metaphor explained above, one may argue that the definition of a 
+category and of a functor were within a major onward development of part of 
+mathematics of the first half of the 20th century, that is set theory, 
+algebra, topology etc. Indeed, for a person working in group theory, say, 
+a natural continuation should be to think of all groups, their homomorphisms, 
+isomorphisms, and the composites as of a single whole: \textit{group theory}. 
+Similarly one could think of vector spaces with linear maps as of another whole. 
+Some analogies between theories were obvious. Moreover, axioms of CT are 
+reminiscent of those of semigroup theory. The concept of a covariant functor 
+was a natural analogue of homomorphisms of algebras. Contravariant functors 
+had been present in various duality theories (e.g., in Pontryagin’s duality 
+mentioned above). CT provided general concepts applicable to all branches of abstract 
+mathematics, contributed to the trend towards uniform treatment of different 
+mathematical disciplines, provided opportunities for the comparison of 
+constructions and of isomorphisms occurring in different branches of mathematics, 
+and may occasionally  suggest new results by analogy \parencite[p.236]{E-ML}. 
+
+The great achievement of Eilenberg and Mac Lane was the idea that a formalization of 
+various evident analogies was worth systematizing and publishing. The initial neglect 
+of \parencite{E-ML} by mathematicians was very likely a result of the fact that it was 
+regarded as a long paper within onward development of known part of mathematics, with 
+many rather simple definitions and examples, tedious verification of easy facts, 
+and no theorem with an involved proof. Ralf Kr{\"o}mer, in his book on the history 
+and philosophy of CT, has outright stated that Eilenberg and Mac Lane needed to 
+have remarkable courage to write and submit for publication the paper almost 
+completely concerned with conceptual clarification \parencite[p.65]{Kromer}. 
+
+A novelty of \parencite[p.272]{E-ML}, which at first appeared insignificant, was regarding 
+elements $p_1, p_2$ of a single quasi-ordered set $P$ as objects of a category, 
+with a unique morphism $p_1 \to p_2$ iff $p_1 \le p_2$ and no morphisms otherwise. 
+This opened a way to a series of generalizations, in particular regarding certain 
+commutative diagrams as functors on small categories. 
+
+One may argue that this achievement was still within onward development of CT 
+as it was within the scope of previous knowledge. Let us recall that the 
+difficulty and the originality of a theorem are not taken into account; what is 
+crucial is whether the concepts involved are natural extension of the previous 
+knowledge and thinking. 
+
+The category axioms represent a very weak abstraction \parencite[p.25]{Goldblatt}. 
+In spite of this fact, a few years later the conceptual clarification turned out 
+highly effective in the book \textit{Foundations of Algebraic Topology} written 
+by Eilenberg together with Norman Steenrod \parencite*{Steenrod}. The latter admitted in a 
+conversation that the 1945 paper on categories had a more significant impact on 
+him than any other research paper, it changed his way of thinking. 
+
+\subsection{The Eilenberg-Mac Lane Program}
+This program has been formulated as follows: 
+\myquote{
+The theory also emphasizes that, whenever new abstract objects are 
+constructed in a specified way out of given ones, it is advisable to regard 
+the construction of the corresponding induced mappings on these new objects 
+as an integral part of their definition. The pursuit of this program entails 
+a simultaneous consideration of objects and their mappings (in our terminology, 
+this means the consideration not of individual objects but of categories). [...] 
+\par The invariant character of a mathematical discipline can be formulated in 
+these terms. Thus, in group theory all the basic constructions can be regarded 
+as the definitions of co- or contravariant functors, so we may formulate the 
+dictum: The subject of group theory is essentially the study of those constructions 
+of groups which behave in a covariant or contravariant manner under induced 
+homomorphisms. More precisely, group theory studies functors defined on well 
+specified categories of groups, with values in another such category. This may be 
+regarded s a continuation of the Klein Erlanger Programm, in the sense that a 
+geometrical space with its group of transformations is generalized to a category 
+with its algebra of mappings. \par 
+[...] such examples as the ``category of \textit{all} sets'', the ``category of 
+\textit{all} groups are illegitimate. The difficulties and antinomies are exactly 
+those of ordinary intuitive \textit{Mengenlehre}; no essentially new paradoxes are 
+involved. [...] we have chosen to adopt the intuitive standpoint, leaving the reader 
+free to insert whatever type of logical foundation (or absence thereof) he may prefer. 
+[...] \par It should be observed first that the whole concept of a category is 
+essentially an auxiliary one; our basic concepts are essentially those of a functor 
+and of a natural transformation. [...] The idea of a category is required only by the 
+precept that every function should have a definite class as domain and a definite 
+class as range, for the categories are provided as the domains and ranges of functors.
+\parencite[p.236--237, 246--247]{E-ML}
+}
+
+The quoted comparison of CT to the celebrated program of Felix Klein shows vividly 
+that the authors regarded their work as significant. 
+A important novelty of \parencite{E-ML} was to use the same letter to denote both: 
+the object component of a functor and its morphism component. This had not been 
+a common practice, even when both correspondences were dealt with in a single 
+paper. This novelty and the whole program fit well Atiyah's conception (quoted 
+above) of ideas \textit{absorbed by mathematicians' culture}. 
+
+CT is both a specific domain of mathematics and at the same time a conceptual framework 
+for a major part of modern theories. 
+
+\section{The amazing phenomenon of unexpected branchings-off in CT}
+Up to this point CT might be regarded are being within onward development of 
+earlier theories: algebra, topology, functional analysis. However, a~branching-off 
+in \parencite{E-ML} is the concept of a \textit{natural equivalence} (central in the title 
+of the paper), with an essential use of commutative diagrams.\footnote{ It is not 
+clear why Eilenberg and Mac Lane refrained from setting the concept in the general 
+form of a \textit{natural transformation} (examples abounded). Perhaps they felt 
+they should not pursue a still more general setting without accompanying 
+results.} % end of footnote
+It was a completely new idea, but its initial impact was limited. 
+
+After 1945 CT---as a general theory---lay dormant till the emergence of 
+significant new concepts and a breaking series of major branchings-off in the 
+second half of the 1950s. One of their outstanding features was a new type of a 
+definition, formulated in the form of a \textit{unique factorization problem}. 
+First such explicit definition \parencite*{Samuel} appeared in the paper by Pierre Samuel, 
+a member of the Bourbaki group, on free topological groups, albeit it was still 
+in the language of set theory, without arrows. 
+In \cite*{Duality}, commutative diagrams were demonstrated as a convenient 
+tool in such problems by  \citeauthor{Duality}. 
+The concept of a \textit{dual category}, formulated in \parencite[p.259]{E-ML} and 
+further developed by \citeauthor{Duality} \parencite*{Duality}, had its conceptual roots in various 
+duality theories, particularly in that of projective geometry. The \textit{product} 
+of two categories was an analogue of that for groups and various algebras. 
+Mac Lane analysed the concept of duality, 
+stressed diagrammatic dualities of various pairs of concepts and presented the 
+definitions of \textit{direct} and \textit{free products} in group theory (later 
+generalized to the concepts of categorial \textit{products} and \textit{coproducts}, 
+respectively). 
+
+\subsection{A metamorphosis from Eilenberg--Mac Lane Program to mature CT}
+A turning point in the development of CT was the seminal paper by Daniel \citeauthor{Kan} \parencite*{Kan}
+on \textit{adjoint functors}. In much the same time period, independently, 
+several closely related concepts and results were worked out: \textit{representable 
+functors}, \textit{universal morphisms}, \textit{Yoneda lemma}, various types of 
+\textit{limits} and \textit{colimits} \parencite[pp.345--352]{Century}. Special cases of 
+them had a long earlier history in specific situations in algebra and topology 
+(e.g., Freudenthal's theorems on \textit{loops} and \textit{suspensions} in homotopy 
+theory proved in 1937). This confirms a known phenomenon that mathematicians may use 
+an idea spontaneously, without being conscious of it in a more abstract setting. 
+
+\citeauthor{Duality} \parencite*{Duality} also opened the way to the study of categories with additional 
+structure, which some years later developed to the study of abelian categories. This 
+topic was developed---in a remarkably short time---due to the work of Alexandre 
+Grothendieck, David Buchsbaum, Pierre Gabriel, Max Kelly and authors of two 
+monographs: Peter  \citeauthor{Freyd} \parencite*{Freyd} and Barry \citeauthor{Mitchell} \parencite*{Mitchell}. 
+
+Within 20 years CT, originally conceived as a useful language for mathematicians, 
+became a developed, mature theory, something totally unexpected by its founders. 
+
+\subsection{Set theory without elements} 
+The results of the work of William Lawvere turned out to be not only a new branch of 
+CT, but also opened new perspectives in mathematics, logic, foundations of mathematics, 
+and philosophy. In his Ph.D.\ thesis at Columbia University in New York, 
+supervised by Eilenberg (defended in 1963, known from various copies, with full 
+text published 40 years later) many new ideas were presented, including a 
+categorical approach to algebraic theories \parencite{Law-Semant}. 
+
+Lawvere also tackled the general question as to what conditions a category 
+must satisfy in order to be equivalent to the category \textbf{Set}. The idea looked 
+analogous to the so-called \textit{representation theorems}, i.e., propositions 
+asserting that any model of the axioms for a certain abstract structure must be 
+(in some prescribed sense) isomorphic to a specific type of models of the theory 
+or to one particular concrete model.\footnote{The oldest theorems of this type 
+are: Cayley's theorem that every (abstract) group is isomorphic to a group of 
+bijections of a set; Kuratowski's theorem that every partially ordered set is  
+order-isomorphic to a family of subsets of a set, ordered by inclusion; theorem that 
+every group with one free generator is isomorphic to $\mathbb{Z}$. 
+Analogous examples are known in many theories.} % end footnote 
+However, Lawvere's case was unique and controversial in the sense that his `sets' 
+were conceived \textit{without elements}. The theory did not have the primitive 
+notion ``element of''. And it did work. 
+
+Specifically, Lawvere characterized \textbf{Set} (up to \textit{equivalence} of 
+categories) as a category $\mathcal{C}$ with the following: an \textit{initial} 
+object \textbf{0}; a \textit{terminal} object \textbf{1} (which gives rise to 
+\textit{elements} of $A$ defined as morphisms from \textbf{1} to $A$); 
+\textit{products} and \textit{coproducts} of finite families of objects; 
+\textit{equalizers} and \textit{coequalizers}; for any two objects there is an 
+\textit{exponential}; existence of a specific object \textbf{N} with morphisms 
+$0\colon \mathbf{1} \to \mathbf{N}$ and $s\colon \mathbf{N}\to \mathbf{N}$ yielding 
+the successor operation $s$ on $\mathbf{N}$ and a simple recursion for sequences; 
+axiom that \textbf{1} is a \textit{generator} (if parallel morphisms $f, g$ are not 
+equal, then there is an element $x\in A$ such that $xf\ne xg$); axiom of choice; 
+three additional elementary axioms of this sort (everything in the language of CT). 
+This was augmented with one non-elementary axiom: $\mathcal{C}$ has products and 
+coproducts for any \textit{indexing infinite set}. A coproduct of copies of 
+\textbf{1} played the role of a set \parencites[]{Law-Sets}[][pp.386--407]{Form}[][pp.341--345]{Century}.  
+
+The point was not to avoid membership relation completely, but (instead of 
+taking as the starting point the primitive notions of \textit{set}, 
+\textit{element} and membership $\in $) one takes \textit{function} as a primitive 
+notion of the theory (with suitable axioms, using elementary logic, but avoiding any 
+reference to sets) and then one derives membership and most concepts of set theory 
+as a special case from there. 
+
+In the second half of the 1960's Lawvere opened a way to a new theory of \textit{elementary 
+toposes} (called also \textit{elementary topoi}, with Greek plural 
+$\tau{\acute{o}}\pi o\iota$ of the noun $\tau{\acute{o}}\pi o\varsigma$). 
+Unexpected territories of mathematics were discovered \parencites[][]{Law-Toposes}[][pp.352--359]{Century}[][]{Kromer}. 
+
+CT became a contender for a foundation of mathematics, although the hope that it 
+undermine the overwhelming role of set theory turned out spurious and most 
+working mathematicians keep away from CT and toposes. CT yields new tools to study 
+many formal mathematical theories and mutual relations between them, from a 
+perspective different from that set theory.  
+
+\section{Recapitulation of some points}  
+Let us recall Atiyah's remark (quoted in the Introduction) that really important 
+discoveries get later omitted altogether as they become absorbed by the general 
+mathematical culture. This thought fits particularly well with the case of CT. Most 
+of the ideas presented by Eilenberg and Mac Lane in 1945 have been absorbed as a 
+natural language of advanced mathematical thinking. Once mathematicians learnt the 
+definitions of a functor and a natural transformation, these concepts became a 
+major tool of mathematical thinking in many abstract theories of the second half 
+of the 20th century. However, it took several years to realise the scope of the 
+change. Freyd commented as follows: 
+
+\myquote{
+MacLane's definition of ``product'' \parencite*{Duality} as the solution of a universal 
+mapping problem was revolutionary. So revolutionary that it was not immediately 
+absorbed even by most category minded people. \par 
+[...] In a new subject it is often very difficult to decide what is trivial, 
+what is obvious, what is hard, what is worth bragging about \parencite[p.156]{Freyd}. 
+}
+
+\noindent Mac Lane, however, used the definition of a product and its dual only in 
+the case of groups (general or abelian). He did not formulate it \textit{mutatis 
+mutandis} in the general case of a category, although he had several simple examples 
+at hand. 
+Freyd also told the story of the term \textit{exact sequence}, a technical 
+definition in homological algebra. In the late 1950's, when he was a graduate student 
+at Brown University, he was brought up to think in terms of exactness of maps. 
+This concept seemed to him as fundamental as the notion of continuity must seem 
+to an analyst. And later he was astonished to hear that when Eilenberg and  
+Steenrod wrote their fundamental book \parencite{Steenrod} (published in 1952) they 
+defined this very notion, recognized the importance of the choice of a suitable 
+name for it, and could not invent any satisfactory word. Consequently, they 
+wrote the word ``blank'' throughout most of the manuscript, ready to replace it 
+before submitting the book for publication. After entertaining an unrecorded number 
+of possibilities they settled on ``exact'' \parencite[p.157]{Freyd}. 
+
+One may argue that the 1945 definitions of a category and of a functor were within a 
+major onward development of abstract algebra and other advanced topics. In fact, 
+originally they were not regarded as a novelty. Eilenberg and Mac Lane were not even 
+certain whether their paper will be accepted for publication (it was long and lacked 
+theorems with substantial proofs). However, they were genuinely convinced of the 
+significance of their conceptual clarification and took pains to write the paper 
+clearly and to attract the reader. 
+
+After this publication for almost ten years CT appeared dormant. The groundbreaking 
+papers on abelian categories by Buchsbaum and Gro\-then\-dieck marked 
+a far-reaching change. And then---in the 1960's---CT unexpectedly started to 
+grow rapidly, with astonishing results \parencite[pp.338--339, 341--361]{Century}.
+
+Thus, from the present perspective, in spite of the previous arguments, one can say 
+that the emergence of CT was undoubtedly a major transgression in mathematics. 
+It was a crossing of a previously non-traversable barrier of deep-rooted habits to 
+think of mathematics. A vivid argument is the fact that---even after publication 
+of the main ideas---it was so difficult to overcome the previous inhibition 
+and widespread tradition.\footnote{Many mathematicians, in USA and elsewhere, 
+expressed disinclination to CT. Karol Borsuk, an outstanding topologist, the 
+teacher of Eilenberg in Warsaw and coauthor of their joint paper published in 1936, 
+was later unfavourable to CT and the categorical methods in mathematics 
+\parencite[p.30]{Jackowski}. Jerzy Dydak, a student of Borsuk, recalled after years: 
+\textit{My own PhD thesis written under Borsuk in 1975 makes extensive use 
+of category theory and I was asked by him to cut that stuff out. Only after 
+I assured him that I spent many months trying to avoid abstract concepts, he 
+relinquished and the thesis was unchanged} \parencite[p.92]{Dydak}. } % end footnote
+
+The creators of CT and their followers could choose their definitions freely, nobody 
+could forbid that. And yet the previous way of thinking was an obstacle for 
+potential authors and for prospective readers. Great insight of Eilenberg and 
+Mac Lane of what is significant in mathematics turned out a crucial factor.  
+
+
+
+\end{artengenv}
