@@ -1,0 +1,201 @@
+%\usepackage[sc]{mathpazo}
+
+%\usepackage{titling}
+%\usepackage{authblk}
+
+\begin{artengenv}{Marek Ku\'s}
+	{On the validity of the definition of a~complement-classifier}
+	{On the validity of the definition of a~complement-classifier}
+	{On the validity of the definition of a~complement-classifier}
+	{Institute of Philosophy, Jagiellonian University\\Dominican College of Philosophy and Theology}
+	{It is well-established that topos theory is inherently connected with intuitionistic logic. In recent times several works appeared concerning so-called com\-ple\-ment-toposes (co-toposes), which are allegedly connected to the dual to intuitionistic logic. In this paper I present this new notion, some of the motivations for it, and some of its consequences. Then, I argue that, assuming equivalence of certain two definitions of a topos, the concept of a complement-classifier (and thus of a co-topos as well) is, at least in general and within the conceptual framework of category theory, not appropriately defined. For this purpose, I first analyze the standard notion of a subobject classifier, show its connection with the representability of the functor \textsf{Sub} via Yoneda lemma, recall some other properties of the internal structure of a topos and, based on these, I critically comment on the notion of a complement-classifier (and thus of a co-topos as well).}
+	{category theory, topos theory, categorical logic, Heyting algebras, co-Heyting algebras, in\-tu\-itionistic logic, dual to in\-tu\-itionistic logic, complement-clas\-si\-fier.}
+
+
+\section{General introduction} \label{intro}
+
+
+\lettrine[loversize=0.13,lines=2,lraise=-0.03,nindent=0em,findent=0.2pt]%
+{C}{}ategory theory, and especially topos theory, have changed the way we think about the role of logic in mathematics, and, through mathematics, perhaps also in physics. It is common knowledge that toposes are intrinsically connected to intuitionistic logic. However, recently there appeared several works concerning so-called com\-ple\-ment-toposes (co-toposes), which are, supposedly, connected to a certain type of paraconsistent logic called dual to intuitionistic, or anti-intuitionistic, logic, which algebra is a co-Heyting one.\footnote{About co-toposes see \parencite{mortensen-1995,mortensen-2003,james-phd-1996,estrada-gonzalez-2010,estrada-gonzalez-2015}, about a dual to intuitionistic logic see e.g. \parencite{goodman-1981, czermak-1977, urbas-1996, kamide-2003}.} It is known that, indeed, some toposes having co-Heyting structures exhibit some aspects of dual to intuitionistic logic (see \parencite{reyes-zolfaghari-1996}, and Section \ref{summary} here), and more in this matter may be discovered in the future, but here I want to examine only some aspects of the notion of a com\-ple\-ment-topos.
+
+In \parencite[p.161f and p.163]{maclane-moerdijk-1994} two definitions of a topos are given, which are said to be equivalent. The whole reasoning of my paper hinges on this equivalence and in what follows I assume its validity (although I have some reasons to doubt it, and I plan to examine this in the future). Here I argue that the way co-toposes are defined in the above-mentioned works is, at least from the point of view of category theory, inappropriate. I will not give the complete exposition of the role a dual to intuitionistic logic, or, from an algebraic point of view, a co-Heyting structure, plays in category theory. This is rather still a work in progress and I would like to elaborate on this subject more extensively in future. Here I give only some arguments, I think quite convincing, against the considered notion of a co-topos. It should be stressed that if not stated otherwise I am considering only zero-order logic, i.e. propositional logic.
+
+First, in Section 2, I give some motivations behind the introduction of the concept of a co-topos, I provide the definition of this concept, and, also for this purpose, of the notion of the so-called complement-classifier. Later, assuming the validity of these concepts, I show some of their consequences. In Section 3, I analyze the original concept of a subobject classifier and show how it is connected with the requirement that the functor \textsf{Sub} is representable. In the next section, I critically comment on the notion of a co-topos basing on both, the above analysis, and some other properties of toposes. In the last section, I conclude and give some further short remarks on the presence and relevance of the co-Heyting structure in toposes and other areas of mathematics.
+
+
+
+\section{Introduction to the alleged co-toposes}
+
+As far as I know, the first definition of a co-topos appeared in \parencite[Chapter 11]{mortensen-1995} (this is suggested in \parencite[p.80]{james-phd-1996}), written together with Peter Lavers. After that publication there appeared subsequent publications dealing with co-toposes, see e.g. \parencite{james-phd-1996, mortensen-2003, estrada-gonzalez-2010, estrada-gonzalez-2015}. 
+
+Let us first see what the motivations for co-toposes are. The logic of toposes is known to be intuitionistic logic (\textsf{IL}), although one should be careful with such a simplification because, as Colin McLarty pointed out, ``topos logic coincides with no intuitionist logic studied before toposes''  \parencite[see][p.vii]{mclarty-1995}.\footnote{In short, higher-order intuitionistic logic of toposes agrees with traditional Heyting's rules of inference for connectives and quantifiers, but the disjunction and existence properties, which are a traditional part of intuitionism, do not hold in toposes in general \parencite[see][p.154]{mclarty-review-1990}. Although toposes are intrinsically connected with (higher-order) intuitionistic logic, they were not simply designed to agree with it (see ibid., p.152f). Lambek and Scott even claim: ``Nothing could have been further from the minds of the founders of topos theory than the philosophy of intuitionism'' \parencite[see][p.125]{lambek-scott}.} In one of the approaches, a topos is considered as a generalization of a topological space. The algebra of open sets (of some topological space) is the Heyting algebra and therefore it forms a semantics for \textsf{IL} \parencite[cf.][]{stone-1937, tarski-1938} on topological interpretation of \textsf{IL}). However, a topology can be equivalently specified by the family of closed sets. Incidentally, it is closure operation and closed sets, rather than interior operation and open sets, that were first analyzed: McKinsey and Tarski first considered closure algebra as an algebra of topology (see \parencite{mckinsey-tarski-1944, mckinsey-tarski-1946}) and the first general and explicit definition of a sheaf on a space was described by Leray in terms of the closed sets of that space  \parencite[cf.][p.1]{maclane-moerdijk-1994}. In this context we can better understand Mortensen's motivation when he writes \parencite[see][p.102]{mortensen-1995}:
+\begin{quotation}
+	\textit{Specifying a topological space by its closed sets is as natural as specifying it by its open sets. So it would seem odd that topos theory should be associated with open sets rather than closed sets. Yet this is what would be the case if open set logic were the natural propositional logic of toposes. At any rate, there should be a simple ‘topological’ transformation of the theory of toposes, which stands to closed sets and their logic, as topos theory does to open sets and intuitionism. Furthermore, the logic of closed sets is paraconsistent.}
+\end{quotation}
+
+Mortensen gives the following definition of a complement-classifier (see \parencite[p.104f]{mortensen-1995}, I keep the exact same wording, changing only F to \textit{false}, $ a $ to $ A $, and $ b $ to $ X $ in order to standardize the notation in this paper):
+\begin{quotation}
+	A \textit{complement-classifier} for a category $  \mc{E} $ with terminal object \textsf{1}, is an object $\Omega$ together with an arrow $ \textit{false}: \textsf{1} \to \Omega $ satisfying the condition that for every monic arrow $\begin{tikzcd}[cramped, sep=small] f: A \ar[r, tail]  & X \end{tikzcd}$ there exists a unique arrow $ \ochi_f$ such that
+	\begin{equation*}%\label{}
+	\begin{tikzcd} 
+	A \arrow[r, "f", tail] \arrow[d,"!"']    & X \arrow[d, "\ochi_f"] \\
+	\textsf{1} \arrow[r, "\textit{false}"'] & \Omega
+	\end{tikzcd}
+	\end{equation*}
+	is a pullback. $ \ochi_f $ is the \textit{complement-character} of $ f $.
+\end{quotation}
+
+
+Then it is stated what a \textit{complement-topos} is (I quote from \parencite[p.105]{mortensen-1995}):
+\begin{quotation}
+	An (elementary) \textit{complement-topos} is a category with initial and terminal objects, pullbacks, pushouts, exponentiation, and a complement classifier.
+\end{quotation}
+
+In what follows, I shall use the term complement-topos (or in short co-topos) meaning the notion as it is described above by Mortensen (the same notion is also used in e.g. \parencite{estrada-gonzalez-2010, estrada-gonzalez-2015}). As an example of a different definition of a co-topos see e.g. \parencite{angot-pellissier}, where ``cotopos'' is considered as `a closed co-Cartesian category with quotient classifier'' (see p.189), which seems to be a different notion, although the author suggests he is considering the same notion and makes reference to unpublished work by James and Mortensen.
+
+As I mentioned in Section \ref{intro}, my aim in this paper is not a thorough analysis of connections between dual to intuitionistic logic and toposes, nor a comprehensive study of papers concerning co-toposes. I want to scrutinize only some aspects of the notion of a com\-ple\-ment-topos. I argue that the arrow $ \textsf{1} \to \Omega $, distinguished (up to isomorphism) by subobject classifier, may not be arbitrarily interpreted, and thus simply renaming it as false is, at least form the point of view of category theory, inappropriate.
+
+
+Let me first show some of the consequences of such a definition  \parencite[cf. e.g.][]{mortensen-1995, estrada-gonzalez-2010}, assuming for a moment its validity. Having the complement-classifier $ \textit{false}:\textsf{1}\to\Omega $ (which will be denoted also as $ \bot $), we define, by analogy with the standard approach,
+\begin{equation}\label{true}
+\textit{true}\equiv\top=\ochi_{\textsf{0}_{\textsf{1}}}\,,
+\end{equation}
+where $ \textsf{0}_{\textsf{1}} $ is the only, and always existing, arrow from the initial object, $ \textsf{0} $, to the terminal object, $ \textsf{1} $; this arrow is a monomorphism.
+The logical connectives are also defined by analogy with the standard approach\footnote{I assume the Reader's familiarity with the standard definition of logical connectives in a topos, which can be found in e.g. \parencite[p.139]{goldblatt-2006}.}, but we have to take into account that now $ \ochi_f $ is the complement-characteristic arrow. We have therefore:
+
+%pagebreak added
+\begin{align*}
+\lnot &:= \ochi_{\top} \ ,\\
+\smallsmile &:= \ochi_{\left<\bot, \bot\right>} \ ,\\
+\smallfrown &:= \ochi_{\text{Im}\left[\left<\bot,\text{id}_\Omega\right>,\left<\text{id}_\Omega,\bot\right>\right]} \ ,\\
+-&:=\ochi_e \ ,
+\notag
+\end{align*}
+where $ \left<f, g\right> $ is the product arrow of $ f $ and $ g $ (with respect to the projections $ \pi_1 $, $ \pi_2 $ on its first and second factor, respectively), $ \left[f,g\right] $ is the co-product arrow of $ f $ and $ g $ (with respect to the standard injections), $ \text{Im} f $ is an image of $ f $, i.e. the monic of the epi-monic factorization (which, in a topos, exists for any arrow), and $e$ is the equalizer of $ \lor $ and $ \pi_1 $. Therefore, in the process of such a dualization: (i)~conjunction and disjunction interchange, and (ii)~in place of implication we get the so-called pseudo-difference.
+
+As a result $ \big(\mathcal{E}(X,\Omega), \sqsubseteq\!\big) $ changes the order, so it becomes a co-Heyting algebra. $ \big(\textsf{Sub}(X), \subseteq\!\big) $ remains a Heyting algebra, as it depends only on the factorization of the appropriate arrows and thus is independent of the (complement-)classifier. In this way, $ \big(\textsf{Sub}(X), \subseteq\!\big) $  and $ \big(\mathcal{E}(X,\Omega), \sqsubseteq\!\big) $ are no longer isomorphic Heyting algebras. The arrow $ \bot $, the one distinguished (up to isomorphism) by the complement-classifier, is now the lowest element of $ \big(\mathcal{E}(\textsf{1},\Omega), \sqsubseteq\!\big) $. 
+
+If we define (as is the usual way) $\mc{E} \models \alpha$ if and only if, for every $ \mc{E}$-evaluation $ V $, it is $ V(\alpha)=\top $ then we get a different set of tautologies. Let me analyze one example, for which I use the subscript ``S'' for the notation of standard toposes, and no subscript for the present case of co-toposes. Because the definition of co-topos, in comparison with the one of topos, assumes the same properties for certain arrows, but gives only different names (or interpretations) to them, we have that e.g. the arrow ``$ \bot $'' (defined as $ \chi_{\textsf{0}_{\textsf{1}}} $) in a standard topos (i.e. $ \bot_S $, in our current notation), is the same as $ \top $ (defined in \eqref{true}), and thus we have $ \bot_S=\top $. The situation is analogous for the other arrows. Now, for any (standard) topos $ \mc{E} $ we have:
+\[\mc{E}\models_S \ \sim \left(\varphi\, \land \sim\varphi\right)\,.
+\]
+In IL we have: if $\sim\! \psi = 1$, then $\psi=0$ (but not \textit{vice versa}). Thus for all $\mc{E}$-evaluations we have trivially (assuming, for convenience, that $ \varphi $ is an atomic sentence)
+\begin{align*}
+V_S(\varphi\, \land \sim\varphi) &= \bot_S \\
+&= \, \smallfrown_S \circ \left< V_S(\varphi), \lnot_S \circ V_S(\varphi)\right>\\
+&=\,\smallsmile \circ \left< V(\varphi), \lnot \circ V(\varphi)\right>\\
+&=V( \varphi\, \lor \sim\varphi)\\
+&=\top \,. 
+\end{align*}
+This means that for any co-topos we would have $\mc{E} \models \varphi\, \lor \sim\varphi\,$.
+
+\section{The subobject classifier}
+
+In order to analyze the question of the appropriateness of the definition of a comple\-ment-classifier and that of co-topos, let us first comment on the definition of standard subobject classifier and that of topos. A subobject classifier may be defined in the following way:
+
+\begin{definition}
+	If $ \mc{C} $ is a category with a terminal object \textsf{1}, then the \textbf{subobject classifier} for $ \mc{C} $ is an object $\Omega$ together with an arrow $ \textit{true}: \textsf{1} \to \Omega $ such that for every monic $\begin{tikzcd}[cramped, sep=small] f: A \ar[r, tail]  & X \end{tikzcd}$ there is a unique arrow $ \chi_f :X \to \Omega$  which makes the following diagram a pullback:
+	\[\begin{tikzcd} 
+	a \arrow[r, "f", tail] \arrow[d,"!"']    & d \arrow[d, "\chi_f"] \\
+	\textsf{1} \arrow[r, "\textit{true}"'] & \Omega \nospacepunct{.}
+ 	\end{tikzcd}
+	\]
+\end{definition}
+
+\noindent The important question for us is whether (in the context of a topos)
+\begin{enumerate}
+	\item[(A)] the word ``true'' in the above definition is a meaningful and non-removable part of it,
+\end{enumerate}
+and, in such case, we should add a comment about what does ``true'' mean already at this level (without having yet defined any order on $ \mc{E}(\textsf{1},\Omega) $); or whether
+\begin{enumerate}
+	\item[(B)]\label{opcje} instead of ``\ldots together with an arrow $ \textit{true}: \textsf{1} \to \Omega $ such that \ldots'' we could just have ``\ldots together with a certain arrow $\eta: \textsf{1} \to \Omega $ such that \ldots'' (where $ \eta $ is just a label added for convenience of referring to it).
+\end{enumerate}  
+Of course, in both cases the distinguished arrow (\textit{true} or $ \eta $) is defined up to an isomorphism, but the question is whether the interpretation of it as true is an additional feature of the arrow that we are assuming (option (A)), or it is the consequence of the definition (option (B)). In the latter case we can \textit{post factum} add this name in the very definition and obtain the standard textbook definition.
+
+
+In my opinion, (B) is the only correct option. A subobject classifier is considered mainly in order to define a topos as a Cartesian closed category with a subobject classifier. However, a topos may also be defined without any reference to truth. Namely, from the equivalence of the two definitions of the topos \parencite[p.161f and 163]{maclane-moerdijk-1994}, instead of a subobject classifier we can assume an object $ \Omega $ and for each object $ X $ an isomorphism 
+\[
+\textsf{Sub}(X) \cong \textsf{Hom}(X, \Omega) \, ,
+\]
+natural in $ X $. In other words, the functor $ \textsf{Sub} $ is required to be representable (the subobject classifier being its representing object).
+
+\subsubsection{Representability of \textsf{Sub}}
+
+Let us briefly see how representability of the functor \textsf{Sub} is connected with the standard definition of a subobject classifier. Representability of \textsf{Sub} means that there is a natural isomorphism between the \textsf{Sub} functor and the contravariant \textsf{Hom}-functor $ \textsf{Hom}(-,\Omega) $ (with $ \Omega $ being the representing object), which we shall denote as $ \beta $. The situation can be pictured as
+\begin{equation}\label{natur}
+\begin{tikzcd}
+\mc{E}^{op} \arrow[r, bend left=50, ""{name=U, below}, "{\textsf{Hom}\left(-,\Omega\right)}"]
+\arrow[r, bend right=50, ""{name=D}, "\textsf{Sub}"']
+& \textsf{Set}
+\arrow[Rightarrow, from=U, to=D,"\beta"]  \, .
+\end{tikzcd}
+\end{equation}
+
+Now, from the Yoneda lemma we know that
+\[
+Nat \big( \textsf{Hom}(-,\Omega), \textsf{Sub}  \big) \cong \textsf{Sub} (\Omega)\,,
+\]
+and every natural transformation $ \alpha $ from $ \textsf{Hom}(-,\Omega) $ to $ \textsf{Sub} $ is completely determined by an element of $ \textsf{Sub} (\Omega) $ (i.e., by a subobject of $ \Omega $), which is $ \alpha_\Omega(\text{id}_\Omega) $. Namely, for any object $ X $ of $ \mc{E} $, a component $ \alpha_X $ is an arrow between sets $ \textsf{Hom}(X,\Omega) $ and $\textsf{Sub} (X) $, and its action on any arrow $ g:X\to\Omega $ is given by
+\[
+\alpha_X (g)=\textsf{Sub}(g)\big(\alpha_\Omega (\text{id}_\Omega)\big)\,,
+\]
+where $ \textsf{Sub}(g) $ is an arrow in \textsf{Set} between $ \textsf{Sub}(\Omega) $ and $ \textsf{Sub}(X) $, which takes a monic and by pulling it back along $ g $ gives another monic. $ \alpha_\Omega (\text{id}_\Omega) $ being a subobject of $ \Omega $ can be denoted as a monic $\begin{tikzcd}[cramped, sep=small] \Omega_0 \ar[r, tail]  & \Omega \end{tikzcd}$. Then, the action of $ \alpha_X $ can be described as follows: for any $ g:X\to\Omega $, $ \alpha_X (g) $ gives a subobject of $ X $, let us denote it as $\begin{tikzcd}[cramped, sep=small] A \ar[r, tail]  & X \end{tikzcd}$, which is given by the following pullback:
+\[\begin{tikzcd} 
+A \arrow[r, tail] \arrow[d]    & X \arrow[d, "g"] \\
+\Omega_0 \arrow[r, tail] & \Omega \nospacepunct{.}
+\end{tikzcd}
+\]
+
+It can be shown that if $ \alpha $ is a natural isomorphism, then the corresponding subobject $ \alpha_\Omega (\text{id}_\Omega) $ is not any subobject of $ \Omega $, but precisely a global element of it, i.e., an arrow $ \textsf{1}\to\Omega $  \parencite[see e.g.][part of the proof on p.33f]{maclane-moerdijk-1994}. 
+
+From the representability of \textsf{Sub} we know that among all the natural transformations $ \{\alpha\} $ there is at least one that is actually a natural isomorphism, which we have denoted as $ \beta $ (see \eqref{natur}). We now know that such $ \beta $ is completely determined by $ \beta_\Omega (\text{id}_\Omega) $, being a global element of $ \Omega $, which we shall denote as $ \eta:\textsf{1}\to\Omega $. In this way, for any object $ X $ we have an isomorphism (a bijection) $ \beta_X $ between $ \textsf{Hom}(X,\Omega) $ and $ \textsf{Sub}(X) $ given by a pullback (to avoid confusion with previous notation, we may now denote the arrow from $ \textsf{Sub}(X) $ as $ f $, and the corresponding arrow from $ \textsf{Hom}(X,\Omega) $ as $ \chi_f $)
+\[\begin{tikzcd} 
+A \arrow[r, tail, "f"] \arrow[d, "!"']    & X \arrow[d, "\chi_f"] \\
+\textsf{1} \arrow[r, "\eta"'] & \Omega\nospacepunct{,}
+\end{tikzcd}
+\]
+which is precisely the bijection between characteristic morphisms and subobjects, as assumed in the definition of subobject classifier.
+
+The above considerations suggest that the interpretation of the arrow $ \eta:\textsf{1}\to\Omega $ as \textit{true} is not an additional feature the arrow has to fulfill, but it follows, as we shall see more clearly in the next section, from the role this arrow plays in the structure of a topos, as option (B) (on page~\pageref{opcje}) points out.
+
+
+\section{Comments on the notion of a co-topos}
+
+As mentioned in Section \ref{intro}, I assume in this paper that the two definitions of a topos as given in \parencite[p.161f and 163]{maclane-moerdijk-1994} are equivalent (as stated in this book). In my opinion, this equivalence should be scrutinized, and I plan to examine this in future work, but here I take it for granted. The whole argumentation of my paper hinges on this equivalence, and so, if it is false, the conclusions might also (but do not have to) be false. Nevertheless, I think a lot of observations in this paper are still valuable (at least as valid conditional reasoning based on some assumptions).
+
+First, a topos may be defined without any reference to the notion of truth, thus making impossible the dualization suggested in the approach under consideration.
+
+
+Moreover, we have to pay attention to the internal structure of a topos. From the categorical point of view, it is the internal structure that plays a major role, and if the category theory is treated as a foundation of mathematics, then the internal structure is the only one we have. Boolean algebras, which are the Tarski--Lindenbaum algebras of the classical logic, are self-dual in the sense that they preserve the property of being Boolean after changing the order. Such a change of the order swaps the top element (truth) with the bottom (false), and the conjunction (meet) with the disjunction (join) (nota bene, this property of Boolean algebras does not imply that the notions of truth and falsity are utterly interchangeable for, say, the working mathematician). For Heyting algebras, which are the Tarski--Lindenbaum algebras of the intuitionistic logic (or, more precisely, for intermediate logics), the situation is not the same. The dual of a Heyting algebra is a co-Heyting or Brouwer algebra associated with a dual to intuitionistic logic. Now, it is a Heyting algebra structure that is fundamentally\footnote{By this I mean the universality of this structure in all toposes. A co-Heyting structure can also be present internally in toposes but only in some of them (e.g. in Boolean toposes, but, as we shall soon see, there is a much larger family of toposes that also exhibit a co-Heyting structure).} and internally present in all toposes. We have already mentioned that the poset $ \big(\textsf{Sub}(X), \subseteq\!\big) $ is a Heyting algebra for any object $ X $ in any topos (independently of the (complement-)classifier). This is an example of the external Heyting algebra, as the set $ \textsf{Sub}(X) $ may not be an object of a given topos. There is, however, an internal version of this statement, which I formulate in the form of a proposition without proof, based on \parencite[p.201]{maclane-moerdijk-1994}:
+
+\begin{proposition-stopa}
+	For any object $ X $ in any topos $ \mc{E} $, the power object $ PX $ (or equivalently the exponential $ \Omega^X $) is an internal Heyting algebra. (In particular, so is the subobject classifier $ \Omega = P \textsf{1} $.) For each $ X $ in $ \mc{E} $ the internal structure on $ \Omega $ makes $ \textsf{Hom}(X,\Omega) $ an external Heyting algebra so that the canonical isomorphism
+	\begin{equation}\label{iso}
+	\textsf{Sub}(X)\cong\textsf{Hom}(X,\Omega)
+	\end{equation}
+	is an isomorphism of external Heyting algebras.
+\end{proposition-stopa}
+
+
+In the proof of the theorem on which this proposition is based, it is shown that $ \eta:\textsf{1}\to\Omega $ is the top element of the object $ \Omega $ taken as an internal Heyting algebra.\footnote{The proof may be found on pages 201f of \parencite{maclane-moerdijk-1994}. The authors denote the $ \eta $ arrow as \textit{true} from the very beginning, but, as I have argued in the previous section and as the proof under consideration shows, this notation (or interpretation) is the consequence of its definition in the context of a topos.} On the `external level', assuming \eqref{iso}, we may easily see that $ \eta $ is also the top element in the external Heyting algebra $ \textsf{Hom}(\textsf{1},\Omega) $. In order to achieve this let us note that $ \eta:\textsf{1}\to\Omega $, having the codomain $ \Omega $, is the characteristic arrow for some subobject of its domain, i.e. of $ \textsf{1} $. If we pull $ \eta $ back along itself, we get that $ \eta=\chi_{\text{id}_\textsf{1}} $. Now, because $ \text{id}_\textsf{1} $ is the top element of the Heyting algebra $ \textsf{Sub}(\textsf{1}) $, by means of \eqref{iso} we get our result that $ \eta $ is the top element in the external Heyting algebra $ \textsf{Hom}(\textsf{1},\Omega) $, which is understood as the algebra of truth-values of a topos and plays a special role in its logical structure.
+
+On the basis of the above considerations, I argue that the distinguished arrow $ \eta: \textsf{1} \to \Omega $ cannot be interpreted arbitrarily. Therefore, the opinion that: ``To dualize, simply rename \textsf{T} with \textsf{F}, and relabel the classifier arrow $\text{chi}_\textsf{f}$ as $\text{chi-bar}_\textsf{f}$''  \parencite[see][p.259]{mortensen-2003} cannot be considered valid. On the contrary, no matter how we denote the distinguished arrow, by \textsf{T}, \textsf{F}, $ \eta $ or by anything else, if it obeys the required conditions, then it will play the role of the top element of both, the internal Heyting algebra $ \Omega $, as well as the external Heyting algebra $ \textsf{Hom}(\textsf{1},\Omega) $, and thus the role of truth. At the same time, let me remind that the subobject classifier, together with its \textit{true} arrow, is defined (only) up to isomorphism, which is a common (and proper) feature in category theory.
+
+
+
+\section{Summary and further remarks}
+\label{summary}
+
+In this paper, I have given some reasons why, assuming the equivalence of the two definitions of a topos in \parencite[p.161f and 163]{maclane-moerdijk-1994}, I think the way co-toposes are defined in the above-considered works \parencite{mortensen-1995, mortensen-2003, james-phd-1996, estrada-gonzalez-2010, estrada-gonzalez-2015} is not appropriate, at least within the conceptual framework of category theory.
+
+This does not mean that there is no place for co-Heyting structures and possibly some manifestations of dual to intuitionistic logic in toposes. On the contrary, apart from the whole class of Boolean toposes (which are in this respect a trivial instance of the presence of a co-Heyting structure), a vast class of toposes is known that exhibit the co-Heyting structure of subobjects (and thus bi-Heyting, because, as I have mentioned, the Heyting structure is always present). Lawvere \parencite*{lawvere-1991} very concisely pointed out that ``In any presheaf topos (and more generally any essential subtopos of a presheaf topos), the lattice of all subobjects of any given object is \ldots [an] example of a co-Heyting algebra'' \parencite[p.280]{lawvere-1991}. This line of reasoning was pursued by Reyes and Zolfaghari in \parencite{reyes-zolfaghari-1996} where they proved the above Lawvere's assertion and introduced a new approach to the modal operators, based on the existence of the two negations for bi-Heyting structures. The bi-Heyting algebras and their logics were first studied, according to my knowledge, by Cecylia Rauszer \parencite*{rauszer-1974, rauszer-1974-2}, where she uses the name semi-Boolean algebra for bi-Heyting algebra, and Heyting--Brouwer logic, or, in short, H-B logic, for its logic. 
+
+
+It seems that the co-Heyting structure is also connected with a notion of `boundary', since now the intersection of an element of a co-Heyting algebra with its co-Heyting complement (negation) may not be empty (zero). The 'boundary' defined in this way %, which according to my knowledge was first introduced by Miron Zarycki in \parencite{}, 
+may also exhibit the Leibniz product rule and perhaps be developed into some further geometric structures \parencites[cf.][]{lawvere-1991}[especially pp.123--126]{majid-2012}.
+
+
+\paragraph{Acknowledgments}
+I would like to thank Jean-Pierre Marquis for invaluable suggestions. I have also greatly benefited from comments of Colin McLarty, Steve Awodey, and others during my talk and coffee breaks. I also express my gratitude to Michael Heller for introducing me to the world of categories. I thank anonymous reviewers for valuable comments, suggestions, and links to the bibliography, many of which have resulted in changes to the revised, better version of the manuscript.
+
+
+\end{artengenv}
