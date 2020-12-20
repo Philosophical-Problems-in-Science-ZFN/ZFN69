@@ -1,0 +1,192 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {polish}{}
+\defcounter {refsection}{0}\relax 
+\vskip 0.3\baselineskip 
+\defcounter {refsection}{0}\relax 
+\hfill {\noindent \fontfamily {MyriadPro-OsF}\fontseries {l}\fontshape {n}\fontsize {12}{14}\selectfont {Artykuły}\par }\hfill \mbox {\noindent \fontfamily {MyriadPro-OsF}\fontseries {l}\fontshape {n}\fontsize {12}{14}\selectfont \relax \fontsize {9.3}{13}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip {Articles}\par }
+\defcounter {refsection}{0}\relax 
+\vskip 0.3\baselineskip 
+\defcounter {refsection}{0}\relax 
+\noindent {\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {n}\fontsize {10}{12}\selectfont {Colin McLarty}}\\
+\defcounter {refsection}{0}\relax 
+{\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {it}\fontsize {10}{12}\selectfont Mathematics as a love of wisdom: Saunders Mac~Lane\\as philosopher}\dotfill {\fontfamily {MyriadPro-OsF}\fontseries {l}\fontshape {n}\fontsize {12}{14}\selectfont \pageref {x1}}
+\defcounter {refsection}{0}\relax 
+\vskip .8\baselineskip 
+\babel@toc {english}{}
+\defcounter {refsection}{1}\relax 
+\contentsline {section}{\numberline {1}Aristotle on wisdom and science}{8}{section.0.1}%
+\defcounter {refsection}{1}\relax 
+\contentsline {section}{\numberline {2}Mathematics as a love of wisdom}{11}{section.0.2}%
+\defcounter {refsection}{1}\relax 
+\contentsline {section}{\numberline {3}The philosophy of mathematicians\\in 1930s G\"ottingen}{13}{section.0.3}%
+\defcounter {refsection}{1}\relax 
+\contentsline {section}{\numberline {4}Naturalism}{15}{section.0.4}%
+\babel@toc {polish}{}
+\defcounter {refsection}{0}\relax 
+\noindent {\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {n}\fontsize {10}{12}\selectfont {Zbigniew Semadeni}}\\
+\defcounter {refsection}{0}\relax 
+{\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {it}\fontsize {10}{12}\selectfont Creating new concepts in mathematics: freedom and limitations.\\ The case of Category Theory}\dotfill {\fontfamily {MyriadPro-OsF}\fontseries {l}\fontshape {n}\fontsize {12}{14}\selectfont \pageref {x2}}
+\defcounter {refsection}{0}\relax 
+\vskip .8\baselineskip 
+\babel@toc {english}{}
+\defcounter {refsection}{2}\relax 
+\contentsline {section}{\numberline {1}Introduction}{23}{section.0.1}%
+\defcounter {refsection}{2}\relax 
+\contentsline {section}{\numberline {2}Background conceptions}{26}{section.0.2}%
+\defcounter {refsection}{2}\relax 
+\contentsline {section}{\numberline {3}Developmental successors}{32}{section.0.3}%
+\defcounter {refsection}{2}\relax 
+\contentsline {section}{\numberline {4}The rise of category theory (CT)}{36}{section.0.4}%
+\defcounter {refsection}{2}\relax 
+\contentsline {section}{\numberline {5}The amazing phenomenon of unexpected branchings-off in CT}{44}{section.0.5}%
+\defcounter {refsection}{2}\relax 
+\contentsline {section}{\numberline {6}Recapitulation of some points}{48}{section.0.6}%
+\babel@toc {polish}{}
+\defcounter {refsection}{0}\relax 
+\noindent {\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {n}\fontsize {10}{12}\selectfont {Jean-Pierre Marquis}}\\
+\defcounter {refsection}{0}\relax 
+{\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {it}\fontsize {10}{12}\selectfont Abstract logical structuralism}\dotfill {\fontfamily {MyriadPro-OsF}\fontseries {l}\fontshape {n}\fontsize {12}{14}\selectfont \pageref {x3}}
+\defcounter {refsection}{0}\relax 
+\vskip .8\baselineskip 
+\babel@toc {english}{}
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {1}Introduction}{57}{section.0.1}%
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {2}The abstract structures of logic:\\setting the stage}{60}{section.0.2}%
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {3}Categories as abstract logical structures}{66}{section.0.3}%
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {4}Metalogical theorems from an abstract structural standpoint}{81}{section.0.4}%
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {5}Conclusion}{91}{section.0.5}%
+\babel@toc {polish}{}
+\defcounter {refsection}{0}\relax 
+\noindent {\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {n}\fontsize {10}{12}\selectfont {Mariusz Stopa}}\\
+\defcounter {refsection}{0}\relax 
+{\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {it}\fontsize {10}{12}\selectfont On the validity of the definition of a~complement-classifier}\dotfill {\fontfamily {MyriadPro-OsF}\fontseries {l}\fontshape {n}\fontsize {12}{14}\selectfont \pageref {x4}}
+\defcounter {refsection}{0}\relax 
+\vskip .8\baselineskip 
+\babel@toc {english}{}
+\defcounter {refsection}{4}\relax 
+\contentsline {section}{\numberline {1}General introduction}{102}{section.0.1}%
+\defcounter {refsection}{4}\relax 
+\contentsline {section}{\numberline {2}Introduction to the alleged co-toposes}{103}{section.0.2}%
+\defcounter {refsection}{4}\relax 
+\contentsline {section}{\numberline {3}The subobject classifier}{108}{section.0.3}%
+\defcounter {refsection}{4}\relax 
+\contentsline {section}{\numberline {4}Comments on the notion of a co-topos}{112}{section.0.4}%
+\defcounter {refsection}{4}\relax 
+\contentsline {section}{\numberline {5}Summary and further remarks}{114}{section.0.5}%
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{Acknowledgments}{115}{section.0.5}%
+\babel@toc {polish}{}
+\defcounter {refsection}{0}\relax 
+\noindent {\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {n}\fontsize {10}{12}\selectfont {Marek Ku\'s}}\\
+\defcounter {refsection}{0}\relax 
+{\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {it}\fontsize {10}{12}\selectfont No-signaling in topos formulation and a common ontological basis for classical and non-classical physical theories}\dotfill {\fontfamily {MyriadPro-OsF}\fontseries {l}\fontshape {n}\fontsize {12}{14}\selectfont \pageref {x5}}
+\defcounter {refsection}{0}\relax 
+\vskip .8\baselineskip 
+\babel@toc {english}{}
+\babel@toc {polish}{}
+\defcounter {refsection}{0}\relax 
+\noindent {\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {n}\fontsize {10}{12}\selectfont {Marek Woszczek}}\\
+\defcounter {refsection}{0}\relax 
+{\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {it}\fontsize {10}{12}\selectfont Quantum contextuality as a topological property, and the ontology of potentiality}\dotfill {\fontfamily {MyriadPro-OsF}\fontseries {l}\fontshape {n}\fontsize {12}{14}\selectfont \pageref {x6}}
+\defcounter {refsection}{0}\relax 
+\vskip .8\baselineskip 
+\babel@toc {english}{}
+\defcounter {refsection}{6}\relax 
+\contentsline {section}{\numberline {1}Quantum contextuality and ontology: more than just another problem}{137}{section.0.1}%
+\defcounter {refsection}{6}\relax 
+\contentsline {section}{\numberline {2}Ontic quantum contextuality as a~topological property}{145}{section.0.2}%
+\defcounter {refsection}{6}\relax 
+\contentsline {section}{\numberline {3}Quantum potentiality is real indefiniteness, not counterfactual possibility}{155}{section.0.3}%
+\defcounter {refsection}{6}\relax 
+\contentsline {section}{\numberline {4}The quantum world without real potentiality?}{164}{section.0.4}%
+\defcounter {refsection}{6}\relax 
+\contentsline {section}{\numberline {5}Conclusion}{168}{section.0.5}%
+\babel@toc {polish}{}
+\defcounter {refsection}{0}\relax 
+\noindent {\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {n}\fontsize {10}{12}\selectfont {Shahn Majid}}\\
+\defcounter {refsection}{0}\relax 
+{\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {it}\fontsize {10}{12}\selectfont Quantum geometry, logic and probability}\dotfill {\fontfamily {MyriadPro-OsF}\fontseries {l}\fontshape {n}\fontsize {12}{14}\selectfont \pageref {x7}}
+\defcounter {refsection}{0}\relax 
+\vskip .8\baselineskip 
+\babel@toc {english}{}
+\defcounter {refsection}{7}\relax 
+\contentsline {section}{\numberline {1}Introduction}{182}{section.0.1}%
+\defcounter {refsection}{7}\relax 
+\contentsline {section}{\numberline {2}Outline of quantum geometry}{186}{section.0.2}%
+\defcounter {refsection}{7}\relax 
+\contentsline {section}{\numberline {3}Asymmetric discrete geometry\\and Markov processes}{190}{section.0.3}%
+\defcounter {refsection}{7}\relax 
+\contentsline {section}{\numberline {4}Digital geometry of $2\times 2$ matrices}{203}{section.0.4}%
+\defcounter {refsection}{7}\relax 
+\contentsline {section}{\numberline {5}Beyond de Morgan duality}{213}{section.0.5}%
+\defcounter {refsection}{7}\relax 
+\contentsline {section}{\numberline {6}Concluding remarks}{221}{section.0.6}%
+\babel@toc {polish}{}
+\defcounter {refsection}{0}\relax 
+\noindent {\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {n}\fontsize {10}{12}\selectfont {Rados\l aw A. Kycia, Agnieszka Niemczynowicz}}\\
+\defcounter {refsection}{0}\relax 
+{\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {it}\fontsize {10}{12}\selectfont Information and physics}\dotfill {\fontfamily {MyriadPro-OsF}\fontseries {l}\fontshape {n}\fontsize {12}{14}\selectfont \pageref {x8}}
+\defcounter {refsection}{0}\relax 
+\vskip .8\baselineskip 
+\babel@toc {english}{}
+\defcounter {refsection}{8}\relax 
+\contentsline {section}{\numberline {1}Introduction}{227}{section.0.1}%
+\defcounter {refsection}{8}\relax 
+\contentsline {section}{\numberline {2}Maxwell's demon}{231}{section.0.2}%
+\defcounter {refsection}{8}\relax 
+\contentsline {section}{\numberline {3}Memory}{234}{section.0.3}%
+\defcounter {refsection}{8}\relax 
+\contentsline {section}{\numberline {4}Discussion}{238}{section.0.4}%
+\defcounter {refsection}{8}\relax 
+\contentsline {section}{\numberline {5}Conclusion}{239}{section.0.5}%
+\defcounter {refsection}{8}\relax 
+\contentsline {paragraph}{Acknowledgments}{240}{section.0.5}%
+\babel@toc {polish}{}
+\defcounter {refsection}{0}\relax 
+\noindent {\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {n}\fontsize {10}{12}\selectfont {Steve Awodey, Michael Heller}}\\
+\defcounter {refsection}{0}\relax 
+{\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {it}\fontsize {10}{12}\selectfont The homunculus brain and categorical logic}\dotfill {\fontfamily {MyriadPro-OsF}\fontseries {l}\fontshape {n}\fontsize {12}{14}\selectfont \pageref {x9}}
+\defcounter {refsection}{0}\relax 
+\vskip .8\baselineskip 
+\babel@toc {english}{}
+\defcounter {refsection}{9}\relax 
+\contentsline {section}{\numberline {1}Introduction: On the Computer Screen}{244}{section.0.1}%
+\defcounter {refsection}{9}\relax 
+\contentsline {section}{\numberline {2}Syntax and Semantics}{248}{section.0.2}%
+\defcounter {refsection}{9}\relax 
+\contentsline {section}{\numberline {3}Categorical Semantics}{250}{section.0.3}%
+\defcounter {refsection}{9}\relax 
+\contentsline {section}{\numberline {4}Syntax--Semantics Interaction}{254}{section.0.4}%
+\defcounter {refsection}{9}\relax 
+\contentsline {section}{\numberline {5}Realization and Abstraction}{257}{section.0.5}%
+\defcounter {refsection}{9}\relax 
+\contentsline {section}{\numberline {6}Categories BRAIN and MIND}{263}{section.0.6}%
+\defcounter {refsection}{9}\relax 
+\contentsline {section}{\numberline {7}A Comment}{266}{section.0.7}%
+\babel@toc {polish}{}
+\defcounter {refsection}{0}\relax 
+\vskip 0.3\baselineskip 
+\defcounter {refsection}{0}\relax 
+\hfill {\noindent \fontfamily {MyriadPro-OsF}\fontseries {l}\fontshape {n}\fontsize {12}{14}\selectfont {Recenzje}\par }\hfill \mbox {\noindent \fontfamily {MyriadPro-OsF}\fontseries {l}\fontshape {n}\fontsize {12}{14}\selectfont \relax \fontsize {9.3}{13}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip {Book reviews}\par }
+\defcounter {refsection}{0}\relax 
+\vskip 0.3\baselineskip 
+\defcounter {refsection}{0}\relax 
+\noindent {\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {n}\fontsize {10}{12}\selectfont {Mariusz Stopa}}\\
+\defcounter {refsection}{0}\relax 
+{\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {it}\fontsize {10}{12}\selectfont Category Theory in the hands of physicists, mathematicians, and philosophers}\dotfill {\fontfamily {MyriadPro-OsF}\fontseries {l}\fontshape {n}\fontsize {12}{14}\selectfont \pageref {x10}}
+\defcounter {refsection}{0}\relax 
+\vskip .8\baselineskip 
+\babel@toc {english}{}
+\babel@toc {polish}{}
+\defcounter {refsection}{0}\relax 
+\noindent {\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {n}\fontsize {10}{12}\selectfont {Roman Krzanowski}}\\
+\defcounter {refsection}{0}\relax 
+{\fontfamily {MyriadPro-OsF}\fontseries {m}\fontshape {it}\fontsize {10}{12}\selectfont Contemporary Polish Ontology. Where it is and where it is going}\dotfill {\fontfamily {MyriadPro-OsF}\fontseries {l}\fontshape {n}\fontsize {12}{14}\selectfont \pageref {x11}}
+\defcounter {refsection}{0}\relax 
+\vskip .8\baselineskip 
+\babel@toc {english}{}
+\babel@toc {polish}{}

@@ -188,38 +188,43 @@ twoside,top=25mm,bottom=20mm,left=23mm,right=23mm,headheight=14pt}
 \pdfgentounicode=1
 \usepackage{inconsolata}
 
+\newcommand{\sansfontype}{\sfdefault}
+%\newcommand{\sansfontype}{sourcesanspro}
+%\newcommand{\sansfontype}{phv}
+
+
 \usepackage[medfamily]{MyriadPro} %zainstalowene przy użyciu FontPro https://github.com/sebschub/FontPro
 
-\newenvironment{namesur}{\fontfamily{\sfdefault}\fontseries{m}\fontshape{it}\fontsize{13}{13}\selectfont}{}
-\newenvironment{chaptitle}{\fontfamily{\sfdefault}\fontseries{eb}\fontshape{n}\fontsize{18}{19}\selectfont}{}
-\newenvironment{chaptitleeng}{\fontfamily{\sfdefault}\fontseries{eb}\fontshape{n}\fontsize{13}{15}\selectfont}{}
-\newenvironment{chapsubtit}{\fontfamily{\sfdefault}\fontseries{b}\fontshape{n}\fontsize{13}{16}\selectfont}{}
-\newenvironment{pagnum}{\fontfamily{\sfdefault}\fontseries{m}\fontshape{n}\fontsize{10}{12}\selectfont}{}
-\newenvironment{sectit}{\fontfamily{\sfdefault}\fontseries{b}\fontshape{n}\fontsize{13}{14}\selectfont}{}
-\newenvironment{subsectit}{\fontfamily{\sfdefault}\fontseries{m}\fontshape{n}\fontsize{12}{14}\selectfont}{}
-\newenvironment{subsubsectit}{\fontfamily{\sfdefault}\fontseries{l}\fontshape{n}\fontsize{12}{14}\selectfont}{}
-\newenvironment{pagname}{\fontfamily{\sfdefault}\fontseries{m}\fontshape{n}\fontsize{9.5}{11.4}\selectfont}{}
-\newenvironment{pagtit}{\fontfamily{\sfdefault}\fontseries{m}\fontshape{it}\fontsize{9.5}{11.4}\selectfont}{}
-\newenvironment{toctit}{\fontfamily{\sfdefault}\fontseries{b}\fontshape{n}\fontsize{16}{16}\selectfont}{}
-\newenvironment{subbold}{\fontfamily{\sfdefault}\fontseries{m}\fontshape{n}\fontsize{12}{14}\selectfont}{}
-\newenvironment{parttitle}{\fontfamily{\sfdefault}\fontseries{eb}\fontshape{n}\fontsize{14}{16}\selectfont}{}
+\newenvironment{namesur}{\fontfamily{\sansfontype}\fontseries{m}\fontshape{it}\fontsize{13}{13}\selectfont}{}
+\newenvironment{chaptitle}{\fontfamily{\sansfontype}\fontseries{eb}\fontshape{n}\fontsize{18}{19}\selectfont}{}
+\newenvironment{chaptitleeng}{\fontfamily{\sansfontype}\fontseries{eb}\fontshape{n}\fontsize{13}{15}\selectfont}{}
+\newenvironment{chapsubtit}{\fontfamily{\sansfontype}\fontseries{b}\fontshape{n}\fontsize{13}{16}\selectfont}{}
+\newenvironment{pagnum}{\fontfamily{\sansfontype}\fontseries{m}\fontshape{n}\fontsize{10}{12}\selectfont}{}
+\newenvironment{sectit}{\fontfamily{\sansfontype}\fontseries{b}\fontshape{n}\fontsize{13}{14}\selectfont}{}
+\newenvironment{subsectit}{\fontfamily{\sansfontype}\fontseries{m}\fontshape{n}\fontsize{12}{14}\selectfont}{}
+\newenvironment{subsubsectit}{\fontfamily{\sansfontype}\fontseries{l}\fontshape{n}\fontsize{12}{14}\selectfont}{}
+\newenvironment{pagname}{\fontfamily{\sansfontype}\fontseries{m}\fontshape{n}\fontsize{9.5}{11.4}\selectfont}{}
+\newenvironment{pagtit}{\fontfamily{\sansfontype}\fontseries{m}\fontshape{it}\fontsize{9.5}{11.4}\selectfont}{}
+\newenvironment{toctit}{\fontfamily{\sansfontype}\fontseries{b}\fontshape{n}\fontsize{16}{16}\selectfont}{}
+\newenvironment{subbold}{\fontfamily{\sansfontype}\fontseries{m}\fontshape{n}\fontsize{12}{14}\selectfont}{}
+\newenvironment{parttitle}{\fontfamily{\sansfontype}\fontseries{eb}\fontshape{n}\fontsize{14}{16}\selectfont}{}
 
-\newenvironment{czw}{\fontfamily{\sfdefault}\fontseries{m}\fontshape{n}\fontsize{10}{12}\selectfont}{}
-\newenvironment{czwccp}{\fontfamily{\sfdefault}\fontseries{m}\fontshape{n}\fontsize{10}{4}\selectfont}{}
-\newenvironment{czwit}{\fontfamily{\sfdefault}\fontseries{m}\fontshape{it}\fontsize{10}{12}\selectfont}{}
-\newenvironment{czwad}{\fontfamily{\sfdefault}\fontseries{eb}\fontshape{n}\fontsize{9.5}{11.4}\selectfont}{}
+\newenvironment{czw}{\fontfamily{\sansfontype}\fontseries{m}\fontshape{n}\fontsize{10}{12}\selectfont}{}
+\newenvironment{czwccp}{\fontfamily{\sansfontype}\fontseries{m}\fontshape{n}\fontsize{10}{4}\selectfont}{}
+\newenvironment{czwit}{\fontfamily{\sansfontype}\fontseries{m}\fontshape{it}\fontsize{10}{12}\selectfont}{}
+\newenvironment{czwad}{\fontfamily{\sansfontype}\fontseries{eb}\fontshape{n}\fontsize{9.5}{11.4}\selectfont}{}
 
 
-\newenvironment{rectitle}{\fontfamily{\sfdefault}\fontseries{eb}\fontshape{n}\fontsize{16}{15}\selectfont}{}
-\newenvironment{reclight}{\fontfamily{\sfdefault}\fontseries{l}\fontshape{n}\fontsize{12}{14}\selectfont}{}
-\newenvironment{recautor}{\fontfamily{\sfdefault}\fontseries{l}\fontshape{it}\fontsize{11}{13}\selectfont}{}
+\newenvironment{rectitle}{\fontfamily{\sansfontype}\fontseries{eb}\fontshape{n}\fontsize{16}{15}\selectfont}{}
+\newenvironment{reclight}{\fontfamily{\sansfontype}\fontseries{n}\fontshape{n}\fontsize{12}{14}\selectfont}{}
+\newenvironment{recautor}{\fontfamily{\sansfontype}\fontseries{l}\fontshape{it}\fontsize{11}{13}\selectfont}{}
 
-\newenvironment{toclight}{\fontfamily{\sfdefault}\fontseries{l}\fontshape{n}\fontsize{12}{14}\selectfont}{}
-\newenvironment{tocbold}{\fontfamily{\sfdefault}\fontseries{b}\fontshape{n}\fontsize{11}{13}\selectfont}{}
-\newenvironment{tocname}{\fontfamily{\sfdefault}\fontseries{m}\fontshape{n}\fontsize{10}{12}\selectfont}{}
-\newenvironment{toctititem}{\fontfamily{\sfdefault}\fontseries{m}\fontshape{it}\fontsize{10}{12}\selectfont}{}
+\newenvironment{toclight}{\fontfamily{\sansfontype}\fontseries{l}\fontshape{n}\fontsize{12}{14}\selectfont}{}
+\newenvironment{tocbold}{\fontfamily{\sansfontype}\fontseries{b}\fontshape{n}\fontsize{11}{13}\selectfont}{}
+\newenvironment{tocname}{\fontfamily{\sansfontype}\fontseries{m}\fontshape{n}\fontsize{10}{12}\selectfont}{}
+\newenvironment{toctititem}{\fontfamily{\sansfontype}\fontseries{m}\fontshape{it}\fontsize{10}{12}\selectfont}{}
 
-\newenvironment{bigtitle}{\fontfamily{\sfdefault}\fontseries{ub}\fontshape{n}\fontsize{30}{35}\selectfont}{}
+\newenvironment{bigtitle}{\fontfamily{\sansfontype}\fontseries{ub}\fontshape{n}\fontsize{30}{35}\selectfont}{}
 
 \newenvironment{kolumnada}{\fontfamily{\rmdefault}\fontseries{m}\fontshape{n}\fontsize{9.6}{12.7}\selectfont}{}
 
@@ -856,13 +861,14 @@ backend=biber]{biblatex}
 %	bytranslator = {Tłum.},%
 %	andothers = {i~in\adddot\addcomma},%
 	andothers = {i~in\adddot},%
-	series = {seria\addcolon\space}
+	series = {seria\addcolon\space},%
 }
 
 \DefineBibliographyStrings{english}{%
 	urlfrom = {Available at:},% w oryginale Available from: moim zdaniem ok
 	series = {},%
-	online = {Online}
+	online = {Online},%
+	unpublished = {[unpublished]}
 }
 
 %\DeclareFieldFormat[article]{volume}{{#1}}
@@ -872,7 +878,6 @@ backend=biber]{biblatex}
 \iflanguage{polish}{\renewcommand*{\finalnamedelim}{\addspace\bibstring{and}~}} %dodaje twardą spację do Autor i~Autor
 \renewcommand\bibnamedelimc{\addnbspace}
 \renewcommand\bibnamedelimd{\addnbspace}
-
 
     
 %\renewbibmacro*{cite:idem}{\bibstring[\mkidem]{idem\thefield‌{gender}}\setunit{\p‌​rintdelim{nametitled‌​elim}}}
@@ -1125,15 +1130,17 @@ backend=biber]{biblatex}
 
 \sekcja{Artykuły}{Articles}
 
-
-
-\input{ART_Heller_Awodey/Heller_Awodey.tex}
-
-\input{ART_Marquis/Marquis.tex}
+\input{ART_McLarty/McLarty.tex}
 
 \input{ART_Semadeni/Semadeni.tex}
 
-\input{ART_McLarty/McLarty.tex}
+\input{ART_Marquis/Marquis.tex}
+
+\input{ART_Stopa/Stopa.tex}
+
+\input{ART_Kus/Kus.tex}
+
+\input{ART_Woszczek/Woszczek-PU.tex}
 
 \renewcommand{\theequation}{\arabic{section}.\arabic{equation}}
 \input{ART_Majid/Majid.tex} %do poprawy
@@ -1141,13 +1148,7 @@ backend=biber]{biblatex}
 
 \input{ART_Kycia_Niemczynowicz/Kycia_Niemczynowicz.tex}
 
-\input{ART_Woszczek/Woszczek-PU.tex}
-
-\input{ART_Kus/Kus.tex}
-
-\input{ART_Stopa/Stopa.tex}
-
-
+\input{ART_Heller_Awodey/Heller_Awodey.tex}
 
 
 
@@ -1170,7 +1171,7 @@ backend=biber]{biblatex}
 \sekcja{Recenzje}{Book reviews}
 
 \input{REC_Stopa/Stopa.tex}
-%
+
 \input{REC_Krzanowski/Krzanowski-PU.tex}
 
 

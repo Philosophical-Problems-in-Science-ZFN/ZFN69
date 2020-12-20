@@ -3,12 +3,12 @@
 %\usepackage{titling}
 %\usepackage{authblk}
 
-\begin{artengenv}{Marek Ku\'s}
+\begin{artengenv}{Mariusz Stopa}
 	{On the validity of the definition of a~complement-classifier}
 	{On the validity of the definition of a~complement-classifier}
 	{On the validity of the definition of a~complement-classifier}
 	{Institute of Philosophy, Jagiellonian University\\Dominican College of Philosophy and Theology}
-	{It is well-established that topos theory is inherently connected with intuitionistic logic. In recent times several works appeared concerning so-called com\-ple\-ment-toposes (co-toposes), which are allegedly connected to the dual to intuitionistic logic. In this paper I present this new notion, some of the motivations for it, and some of its consequences. Then, I argue that, assuming equivalence of certain two definitions of a topos, the concept of a complement-classifier (and thus of a co-topos as well) is, at least in general and within the conceptual framework of category theory, not appropriately defined. For this purpose, I first analyze the standard notion of a subobject classifier, show its connection with the representability of the functor \textsf{Sub} via Yoneda lemma, recall some other properties of the internal structure of a topos and, based on these, I critically comment on the notion of a complement-classifier (and thus of a co-topos as well).}
+	{It is well-established that topos theory is inherently connected with intuitionistic logic. In recent times several works appeared concerning so-called com\-ple\-ment-toposes (co-toposes), which are allegedly connected to the dual to intuitionistic logic. In this paper I present this new notion, some of the motivations for it, and some of its consequences. Then, I argue that, assuming equivalence of certain two definitions of a topos, the concept of a complement-classifier (and thus of a co-topos as well) is, at least in general and within the conceptual framework of category theory, not appropriately defined. For this purpose, I first analyze the standard notion of a subobject classifier, show its connection with the representability of the functor \textsf{Sub} via the Yoneda lemma, recall some other properties of the internal structure of a topos and, based on these, I critically comment on the notion of a complement-classifier (and thus of a co-topos as well).}
 	{category theory, topos theory, categorical logic, Heyting algebras, co-Heyting algebras, in\-tu\-itionistic logic, dual to in\-tu\-itionistic logic, complement-clas\-si\-fier.}
 
 
@@ -20,7 +20,7 @@
 
 In \parencite[p.161f and p.163]{maclane-moerdijk-1994} two definitions of a topos are given, which are said to be equivalent. The whole reasoning of my paper hinges on this equivalence and in what follows I assume its validity (although I have some reasons to doubt it, and I plan to examine this in the future). Here I argue that the way co-toposes are defined in the above-mentioned works is, at least from the point of view of category theory, inappropriate. I will not give the complete exposition of the role a dual to intuitionistic logic, or, from an algebraic point of view, a co-Heyting structure, plays in category theory. This is rather still a work in progress and I would like to elaborate on this subject more extensively in future. Here I give only some arguments, I think quite convincing, against the considered notion of a co-topos. It should be stressed that if not stated otherwise I am considering only zero-order logic, i.e. propositional logic.
 
-First, in Section 2, I give some motivations behind the introduction of the concept of a co-topos, I provide the definition of this concept, and, also for this purpose, of the notion of the so-called complement-classifier. Later, assuming the validity of these concepts, I show some of their consequences. In Section 3, I analyze the original concept of a subobject classifier and show how it is connected with the requirement that the functor \textsf{Sub} is representable. In the next section, I critically comment on the notion of a co-topos basing on both, the above analysis, and some other properties of toposes. In the last section, I conclude and give some further short remarks on the presence and relevance of the co-Heyting structure in toposes and other areas of mathematics.
+First, in Section 2, I give some motivations behind the introduction of the concept of a co-topos, I provide the definition of this concept, and, also for this purpose, of the notion of the so-called complement-classifier. Later, assuming the validity of these concepts, I show some of their consequences. In Section 3, I analyze the original concept of a subobject classifier and show how it is connected with the requirement that the functor \textsf{Sub} is representable. In the next section, I critically comment on the notion of a co-topos basing on both the above analysis and some other properties of toposes. In the last section, I conclude and give some further short remarks on the presence and relevance of the co-Heyting structure in toposes and other areas of mathematics.
 
 
 
@@ -28,13 +28,18 @@ First, in Section 2, I give some motivations behind the introduction of the conc
 
 As far as I know, the first definition of a co-topos appeared in \parencite[Chapter 11]{mortensen-1995} (this is suggested in \parencite[p.80]{james-phd-1996}), written together with Peter Lavers. After that publication there appeared subsequent publications dealing with co-toposes, see e.g. \parencite{james-phd-1996, mortensen-2003, estrada-gonzalez-2010, estrada-gonzalez-2015}. 
 
-Let us first see what the motivations for co-toposes are. The logic of toposes is known to be intuitionistic logic (\textsf{IL}), although one should be careful with such a simplification because, as Colin McLarty pointed out, ``topos logic coincides with no intuitionist logic studied before toposes''  \parencite[see][p.vii]{mclarty-1995}.\footnote{In short, higher-order intuitionistic logic of toposes agrees with traditional Heyting's rules of inference for connectives and quantifiers, but the disjunction and existence properties, which are a traditional part of intuitionism, do not hold in toposes in general \parencite[see][p.154]{mclarty-review-1990}. Although toposes are intrinsically connected with (higher-order) intuitionistic logic, they were not simply designed to agree with it (see ibid., p.152f). Lambek and Scott even claim: ``Nothing could have been further from the minds of the founders of topos theory than the philosophy of intuitionism'' \parencite[see][p.125]{lambek-scott}.} In one of the approaches, a topos is considered as a generalization of a topological space. The algebra of open sets (of some topological space) is the Heyting algebra and therefore it forms a semantics for \textsf{IL} \parencite[cf.][]{stone-1937, tarski-1938} on topological interpretation of \textsf{IL}). However, a topology can be equivalently specified by the family of closed sets. Incidentally, it is closure operation and closed sets, rather than interior operation and open sets, that were first analyzed: McKinsey and Tarski first considered closure algebra as an algebra of topology (see \parencite{mckinsey-tarski-1944, mckinsey-tarski-1946}) and the first general and explicit definition of a sheaf on a space was described by Leray in terms of the closed sets of that space  \parencite[cf.][p.1]{maclane-moerdijk-1994}. In this context we can better understand Mortensen's motivation when he writes \parencite[see][p.102]{mortensen-1995}:
-\begin{quotation}
-	\textit{Specifying a topological space by its closed sets is as natural as specifying it by its open sets. So it would seem odd that topos theory should be associated with open sets rather than closed sets. Yet this is what would be the case if open set logic were the natural propositional logic of toposes. At any rate, there should be a simple ‘topological’ transformation of the theory of toposes, which stands to closed sets and their logic, as topos theory does to open sets and intuitionism. Furthermore, the logic of closed sets is paraconsistent.}
-\end{quotation}
+Let us first see what the motivations for co-toposes are. The logic of toposes is known to be intuitionistic logic (\textsf{IL}), although one should be careful with such a simplification because, as Colin McLarty pointed out, ``topos logic coincides with no intuitionist logic studied before toposes''  \parencite[see][p.vii]{mclarty-1995}.\footnote{In short, higher-order intuitionistic logic of toposes agrees with traditional Heyting's rules of inference for connectives and quantifiers, but the disjunction and existence properties, which are a traditional part of intuitionism, do not hold in toposes in general \parencite[see][p.154]{mclarty_book_1990}. Although toposes are intrinsically connected with (higher-order) intuitionistic logic, they were not simply designed to agree with it \parencite[see][p.152f]{mclarty_book_1990}.
+%(see ibid., p.152f).
+Lambek and Scott even claim: ``Nothing could have been further from the minds of the founders of topos theory than the philosophy of intuitionism'' \parencite[see][p.125]{lambek-scott}.} In one of the approaches, a topos is considered as a generalization of a topological space. The algebra of open sets (of some topological space) is the Heyting algebra and therefore it forms a semantics for \textsf{IL} \parencite[cf.][]{stone-1937, tarski-1938} on topological interpretation of \textsf{IL}). However, a topology can be equivalently specified by the family of closed sets. Incidentally, it is closure operation and closed sets, rather than interior operation and open sets, that were first analyzed: McKinsey and Tarski first considered closure algebra as an algebra of topology (see \parencite{mckinsey-tarski-1944, mckinsey-tarski-1946}) and the first general and explicit definition of a sheaf on a space was described by Leray in terms of the closed sets of that space  \parencite[cf.][p.1]{maclane-moerdijk-1994}. In this context we can better understand Mortensen's motivation when he writes \parencite[see][p.102]{mortensen-1995}:
+\begin{quote}
+\begin{small}
+	Specifying a topological space by its closed sets is as natural as specifying it by its open sets. So it would seem odd that topos theory should be associated with open sets rather than closed sets. Yet this is what would be the case if open set logic were the natural propositional logic of toposes. At any rate, there should be a simple ‘topological’ transformation of the theory of toposes, which stands to closed sets and their logic, as topos theory does to open sets and intuitionism. Furthermore, the logic of closed sets is paraconsistent.
+\end{small}
+\end{quote}
 
 Mortensen gives the following definition of a complement-classifier (see \parencite[p.104f]{mortensen-1995}, I keep the exact same wording, changing only F to \textit{false}, $ a $ to $ A $, and $ b $ to $ X $ in order to standardize the notation in this paper):
-\begin{quotation}
+\begin{quote}
+\begin{small}
 	A \textit{complement-classifier} for a category $  \mc{E} $ with terminal object \textsf{1}, is an object $\Omega$ together with an arrow $ \textit{false}: \textsf{1} \to \Omega $ satisfying the condition that for every monic arrow $\begin{tikzcd}[cramped, sep=small] f: A \ar[r, tail]  & X \end{tikzcd}$ there exists a unique arrow $ \ochi_f$ such that
 	\begin{equation*}%\label{}
 	\begin{tikzcd} 
@@ -43,13 +48,16 @@ Mortensen gives the following definition of a complement-classifier (see \parenc
 	\end{tikzcd}
 	\end{equation*}
 	is a pullback. $ \ochi_f $ is the \textit{complement-character} of $ f $.
-\end{quotation}
+\end{small}
+\end{quote}
 
 
 Then it is stated what a \textit{complement-topos} is (I quote from \parencite[p.105]{mortensen-1995}):
-\begin{quotation}
+\begin{quote}
+\begin{small}
 	An (elementary) \textit{complement-topos} is a category with initial and terminal objects, pullbacks, pushouts, exponentiation, and a complement classifier.
-\end{quotation}
+\end{small}
+\end{quote}
 
 In what follows, I shall use the term complement-topos (or in short co-topos) meaning the notion as it is described above by Mortensen (the same notion is also used in e.g. \parencite{estrada-gonzalez-2010, estrada-gonzalez-2015}). As an example of a different definition of a co-topos see e.g. \parencite{angot-pellissier}, where ``cotopos'' is considered as `a closed co-Cartesian category with quotient classifier'' (see p.189), which seems to be a different notion, although the author suggests he is considering the same notion and makes reference to unpublished work by James and Mortensen.
 
@@ -90,7 +98,7 @@ This means that for any co-topos we would have $\mc{E} \models \varphi\, \lor \s
 
 \section{The subobject classifier}
 
-In order to analyze the question of the appropriateness of the definition of a comple\-ment-classifier and that of co-topos, let us first comment on the definition of standard subobject classifier and that of topos. A subobject classifier may be defined in the following way:
+In order to analyze the question of the appropriateness of the definition of a comple\-ment-classifier and that of a co-topos, let us first comment on the definition of standard subobject classifier and that of topos. A subobject classifier may be defined in the following way:
 
 \begin{definition}
 	If $ \mc{C} $ is a category with a terminal object \textsf{1}, then the \textbf{subobject classifier} for $ \mc{C} $ is an object $\Omega$ together with an arrow $ \textit{true}: \textsf{1} \to \Omega $ such that for every monic $\begin{tikzcd}[cramped, sep=small] f: A \ar[r, tail]  & X \end{tikzcd}$ there is a unique arrow $ \chi_f :X \to \Omega$  which makes the following diagram a pullback:
@@ -160,7 +168,7 @@ The above considerations suggest that the interpretation of the arrow $ \eta:\te
 
 \section{Comments on the notion of a co-topos}
 
-As mentioned in Section \ref{intro}, I assume in this paper that the two definitions of a topos as given in \parencite[p.161f and 163]{maclane-moerdijk-1994} are equivalent (as stated in this book). In my opinion, this equivalence should be scrutinized, and I plan to examine this in future work, but here I take it for granted. The whole argumentation of my paper hinges on this equivalence, and so, if it is false, the conclusions might also (but do not have to) be false. Nevertheless, I think a lot of observations in this paper are still valuable (at least as valid conditional reasoning based on some assumptions).
+As mentioned in Section \ref{intro}, I assume in this paper that the two definitions of a topos as given in \parencite[p.161f and 163]{maclane-moerdijk-1994} are equivalent (as stated in this book). In my opinion, this equivalence should be scrutinized, and I plan to examine this in future work, but here I take it for granted. The whole argumentation of my paper hinges on this equivalence, and so, if it is false, the conclusions might also (but do not have to) be false. Nevertheless, I think that a lot of observations in this paper are still valuable (at least as valid conditional reasoning based on some assumptions).
 
 First, a topos may be defined without any reference to the notion of truth, thus making impossible the dualization suggested in the approach under consideration.
 
