@@ -555,6 +555,40 @@ twoside,top=25mm,bottom=20mm,left=23mm,right=23mm,headheight=14pt}
 	{%
 	\label{e\tocnr}%
 	}
+	
+
+\newenvironment{editorialeng}[5]%
+{	\setcounter{footnote}{0}%
+	\setcounter{equation}{0}%
+	\setcounter{section}{0}%
+	\setcounter{subsection}{0}%
+	\setcounter{equation}{0}%
+	\setcounter{table}{0}%
+	\setcounter{figure}{0}%
+	\cleardoublepage%
+	\widowpenalties 3 10000 10000 0%
+	\thispagestyle{plain}\addtocounter{tocnr}{1}\newcommand\tocnr{x\arabic{tocnr}}% empty plain
+	\phantomsection\label{\tocnr}%
+	\addtocontents{toc}{\noindent{\tocname{#1}}\\}%
+	\addtocontents{toc}{{\toctititem#4}\dotfill{\subsubsectit\pageref{\tocnr}}}%
+	\addtocontents{toc}{\vskip.8\baselineskip}
+		\pasekeng%
+		\begin{raggedleft}%
+			\selectlanguage{english} %
+			{\flushright\chaptitle\color{black!70}{#2\par}}%
+%			\vspace{3mm}%
+%			{\flushright\chaptitleeng\color{black!50}{#5}}\par%
+%			\vspace{5mm}%
+			{\flushright\subbold{#1}\par}%
+			\vspace{5mm}%
+		\end{raggedleft}%
+		\vspace{5mm}%
+		\selectlanguage{english}%
+		\markboth{\pagname\protect{#1}}{\pagtit\protect{#3}}%
+}%
+{%
+\label{e\tocnr}%
+}
 
 
 
@@ -1103,13 +1137,13 @@ backend=biber]{biblatex}
 %Spis tresci -------------------------------------------------
 
 {\thispagestyle{plain} \tableofcontents \clearpage}
-%--------------------------------------------------------------------------------------------
+%-------------------------------------------------------------
 \newpage
 \thispagestyle{plain}
 \cleardoublepage
 \thispagestyle{plain}
 
-%--------------------------------------
+%-------------------------------------------------------------
 
 
 
@@ -1122,9 +1156,9 @@ backend=biber]{biblatex}
 
 
 
-%\sekcja{Od Redakcji}{Editorial}
+\sekcja{Od Redakcji}{Editorial}
 
-%\input{EDI_Kwarcinski/Kwarcinski.tex}
+\input{EDI/editorial-PU.tex}
 
 
 

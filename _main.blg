@@ -1,165 +1,165 @@
 [0] Config.pm:312> INFO - This is Biber 2.15 (beta)
 [0] Config.pm:315> INFO - Logfile is '_main.blg'
-[127] biber-MSWIN64:330> INFO - === 
-[158] Biber.pm:415> INFO - Reading '_main.bcf'
-[417] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[420] Biber.pm:952> INFO - Found 32 citekeys in bib section 1
-[420] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[426] Biber.pm:952> INFO - Found 47 citekeys in bib section 2
-[426] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[434] Biber.pm:952> INFO - Found 87 citekeys in bib section 3
-[435] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[437] Biber.pm:952> INFO - Found 24 citekeys in bib section 4
-[438] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[438] Biber.pm:952> INFO - Found 21 citekeys in bib section 5
+[132] biber-MSWIN64:330> INFO - === 
+[165] Biber.pm:415> INFO - Reading '_main.bcf'
 [439] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[448] Biber.pm:952> INFO - Found 83 citekeys in bib section 6
+[442] Biber.pm:952> INFO - Found 32 citekeys in bib section 1
+[442] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[448] Biber.pm:952> INFO - Found 47 citekeys in bib section 2
 [449] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[455] Biber.pm:952> INFO - Found 35 citekeys in bib section 7
-[455] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[457] Biber.pm:952> INFO - Found 21 citekeys in bib section 8
-[457] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[459] Biber.pm:952> INFO - Found 32 citekeys in bib section 9
-[459] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[459] Biber.pm:952> INFO - Found 9 citekeys in bib section 10
-[459] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[460] Biber.pm:952> INFO - Found 3 citekeys in bib section 11
-[460] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[566] Biber.pm:4334> INFO - Processing section 1
-[587] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 1
-[605] bibtex.pm:1682> INFO - LaTeX decoding ...
-[703] bibtex.pm:1494> INFO - Found BibTeX data source 'ART_Heller_Awodey/Heller_Awodey.bib'
-[714] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Marquis/Marquis.bib' for section 1
-[733] bibtex.pm:1682> INFO - LaTeX decoding ...
-[1131] bibtex.pm:1494> INFO - Found BibTeX data source 'ART_Marquis/Marquis.bib'
-[1148] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Semadeni/Semadeni.bib' for section 1
-[1161] bibtex.pm:1682> INFO - LaTeX decoding ...
-[1289] bibtex.pm:1494> INFO - Found BibTeX data source 'ART_Semadeni/Semadeni.bib'
-[1297] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_McLarty/McLarty.bib' for section 1
-[1310] bibtex.pm:1682> INFO - LaTeX decoding ...
-[1397] bibtex.pm:1494> INFO - Found BibTeX data source 'ART_McLarty/McLarty.bib'
-[1461] Utils.pm:395> WARN - year field 'manuscript' in entry 'SkowTalk' is not an integer - this will probably not sort properly.
-[1689] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1689] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1690] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
-[1751] Biber.pm:4334> INFO - Processing section 2
-[1751] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 2
-[1755] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Marquis/Marquis.bib' for section 2
-[1759] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Semadeni/Semadeni.bib' for section 2
-[1904] Utils.pm:395> WARN - year field 'manuscript' in entry 'Skowron' is not an integer - this will probably not sort properly.
-[2078] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2078] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2078] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
-[2138] Biber.pm:4334> INFO - Processing section 3
-[2138] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 3
-[2142] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Marquis/Marquis.bib' for section 3
-[2689] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2690] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2690] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
-[2803] Biber.pm:4334> INFO - Processing section 4
-[2804] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 4
-[2807] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Marquis/Marquis.bib' for section 4
-[2811] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Semadeni/Semadeni.bib' for section 4
-[2814] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_McLarty/McLarty.bib' for section 4
-[2818] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Majid/Majid.bib' for section 4
-[2836] bibtex.pm:1682> INFO - LaTeX decoding ...
-[3178] bibtex.pm:1494> INFO - Found BibTeX data source 'ART_Majid/Majid.bib'
-[3187] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Kycia_Niemczynowicz/Kycia_Niemczynowicz.bib' for section 4
-[3203] bibtex.pm:1682> INFO - LaTeX decoding ...
-[3267] bibtex.pm:1494> INFO - Found BibTeX data source 'ART_Kycia_Niemczynowicz/Kycia_Niemczynowicz.bib'
-[3273] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Woszczek/Woszczek.bib' for section 4
-[3291] bibtex.pm:1682> INFO - LaTeX decoding ...
-[3550] bibtex.pm:1494> INFO - Found BibTeX data source 'ART_Woszczek/Woszczek.bib'
-[3566] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Kus/Kus.bib' for section 4
-[3580] bibtex.pm:1682> INFO - LaTeX decoding ...
-[3653] bibtex.pm:1494> INFO - Found BibTeX data source 'ART_Kus/Kus.bib'
-[3658] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Stopa/Stopa.bib' for section 4
-[3673] bibtex.pm:1682> INFO - LaTeX decoding ...
-[3733] bibtex.pm:1494> INFO - Found BibTeX data source 'ART_Stopa/Stopa.bib'
-[3910] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[3910] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[3911] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
-[3940] Biber.pm:4334> INFO - Processing section 5
-[3941] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 5
-[3944] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Marquis/Marquis.bib' for section 5
-[3948] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Semadeni/Semadeni.bib' for section 5
-[3952] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_McLarty/McLarty.bib' for section 5
-[3955] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Majid/Majid.bib' for section 5
-[3964] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Kycia_Niemczynowicz/Kycia_Niemczynowicz.bib' for section 5
-[3968] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Woszczek/Woszczek.bib' for section 5
-[3972] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Kus/Kus.bib' for section 5
-[4136] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[4136] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[4136] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
-[4164] Biber.pm:4334> INFO - Processing section 6
-[4164] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 6
-[4169] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Marquis/Marquis.bib' for section 6
-[4173] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Semadeni/Semadeni.bib' for section 6
-[4176] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_McLarty/McLarty.bib' for section 6
-[4181] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Majid/Majid.bib' for section 6
-[4184] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Kycia_Niemczynowicz/Kycia_Niemczynowicz.bib' for section 6
-[4188] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Woszczek/Woszczek.bib' for section 6
-[4980] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[4981] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[4981] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
-[5100] Biber.pm:4334> INFO - Processing section 7
-[5100] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 7
-[5104] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Marquis/Marquis.bib' for section 7
-[5108] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Semadeni/Semadeni.bib' for section 7
-[5111] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_McLarty/McLarty.bib' for section 7
-[5115] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Majid/Majid.bib' for section 7
-[5406] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[5406] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[5406] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
-[5453] Biber.pm:4334> INFO - Processing section 8
-[5453] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 8
-[5456] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Marquis/Marquis.bib' for section 8
-[5460] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Semadeni/Semadeni.bib' for section 8
-[5463] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_McLarty/McLarty.bib' for section 8
-[5467] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Majid/Majid.bib' for section 8
-[5471] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Kycia_Niemczynowicz/Kycia_Niemczynowicz.bib' for section 8
-[5647] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[5647] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[5647] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
-[5683] Biber.pm:4334> INFO - Processing section 9
-[5684] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 9
-[5924] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[5924] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[5924] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
-[5963] Biber.pm:4334> INFO - Processing section 10
-[5964] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 10
-[5967] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Marquis/Marquis.bib' for section 10
-[5971] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Semadeni/Semadeni.bib' for section 10
-[5975] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_McLarty/McLarty.bib' for section 10
-[5979] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Majid/Majid.bib' for section 10
-[5982] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Kycia_Niemczynowicz/Kycia_Niemczynowicz.bib' for section 10
-[5986] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Woszczek/Woszczek.bib' for section 10
-[5990] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Kus/Kus.bib' for section 10
-[5994] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Stopa/Stopa.bib' for section 10
-[5997] Biber.pm:4523> INFO - Looking for bibtex format file 'REC_Stopa/Stopa.bib' for section 10
-[6009] bibtex.pm:1682> INFO - LaTeX decoding ...
-[6039] bibtex.pm:1494> INFO - Found BibTeX data source 'REC_Stopa/Stopa.bib'
-[6117] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[6117] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[6117] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
-[6129] Biber.pm:4334> INFO - Processing section 11
-[6129] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 11
-[6133] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Marquis/Marquis.bib' for section 11
-[6137] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Semadeni/Semadeni.bib' for section 11
-[6140] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_McLarty/McLarty.bib' for section 11
-[6144] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Majid/Majid.bib' for section 11
-[6148] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Kycia_Niemczynowicz/Kycia_Niemczynowicz.bib' for section 11
-[6151] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Woszczek/Woszczek.bib' for section 11
-[6155] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Kus/Kus.bib' for section 11
-[6158] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Stopa/Stopa.bib' for section 11
-[6162] Biber.pm:4523> INFO - Looking for bibtex format file 'REC_Stopa/Stopa.bib' for section 11
-[6165] Biber.pm:4523> INFO - Looking for bibtex format file 'REC_Krzanowski/Krzanowski.bib' for section 11
-[6172] bibtex.pm:1682> INFO - LaTeX decoding ...
-[6186] bibtex.pm:1494> INFO - Found BibTeX data source 'REC_Krzanowski/Krzanowski.bib'
-[6221] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[6221] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[6221] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
-[6225] bbl.pm:651> INFO - Writing '_main.bbl' with encoding 'UTF-8'
-[6225] bbl.pm:652> INFO - Converting UTF-8 to TeX macros on output to .bbl
-[6844] bbl.pm:754> INFO - Output to _main.bbl
-[6850] Biber.pm:128> INFO - WARNINGS: 2
+[457] Biber.pm:952> INFO - Found 87 citekeys in bib section 3
+[458] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[461] Biber.pm:952> INFO - Found 24 citekeys in bib section 4
+[461] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[462] Biber.pm:952> INFO - Found 21 citekeys in bib section 5
+[462] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[472] Biber.pm:952> INFO - Found 83 citekeys in bib section 6
+[473] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[478] Biber.pm:952> INFO - Found 35 citekeys in bib section 7
+[479] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[481] Biber.pm:952> INFO - Found 21 citekeys in bib section 8
+[481] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[483] Biber.pm:952> INFO - Found 32 citekeys in bib section 9
+[483] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[483] Biber.pm:952> INFO - Found 9 citekeys in bib section 10
+[483] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[483] Biber.pm:952> INFO - Found 3 citekeys in bib section 11
+[483] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[596] Biber.pm:4334> INFO - Processing section 1
+[617] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 1
+[637] bibtex.pm:1682> INFO - LaTeX decoding ...
+[739] bibtex.pm:1494> INFO - Found BibTeX data source 'ART_Heller_Awodey/Heller_Awodey.bib'
+[751] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Marquis/Marquis.bib' for section 1
+[768] bibtex.pm:1682> INFO - LaTeX decoding ...
+[1189] bibtex.pm:1494> INFO - Found BibTeX data source 'ART_Marquis/Marquis.bib'
+[1207] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Semadeni/Semadeni.bib' for section 1
+[1222] bibtex.pm:1682> INFO - LaTeX decoding ...
+[1357] bibtex.pm:1494> INFO - Found BibTeX data source 'ART_Semadeni/Semadeni.bib'
+[1366] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_McLarty/McLarty.bib' for section 1
+[1381] bibtex.pm:1682> INFO - LaTeX decoding ...
+[1476] bibtex.pm:1494> INFO - Found BibTeX data source 'ART_McLarty/McLarty.bib'
+[1542] Utils.pm:395> WARN - year field 'manuscript' in entry 'SkowTalk' is not an integer - this will probably not sort properly.
+[1782] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1782] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1782] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
+[1831] Biber.pm:4334> INFO - Processing section 2
+[1831] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 2
+[1835] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Marquis/Marquis.bib' for section 2
+[1839] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Semadeni/Semadeni.bib' for section 2
+[1996] Utils.pm:395> WARN - year field 'manuscript' in entry 'Skowron' is not an integer - this will probably not sort properly.
+[2188] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2189] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2189] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
+[2250] Biber.pm:4334> INFO - Processing section 3
+[2250] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 3
+[2254] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Marquis/Marquis.bib' for section 3
+[2835] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2836] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2836] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
+[2951] Biber.pm:4334> INFO - Processing section 4
+[2951] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 4
+[2955] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Marquis/Marquis.bib' for section 4
+[2959] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Semadeni/Semadeni.bib' for section 4
+[2963] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_McLarty/McLarty.bib' for section 4
+[2966] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Majid/Majid.bib' for section 4
+[2988] bibtex.pm:1682> INFO - LaTeX decoding ...
+[3367] bibtex.pm:1494> INFO - Found BibTeX data source 'ART_Majid/Majid.bib'
+[3376] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Kycia_Niemczynowicz/Kycia_Niemczynowicz.bib' for section 4
+[3394] bibtex.pm:1682> INFO - LaTeX decoding ...
+[3463] bibtex.pm:1494> INFO - Found BibTeX data source 'ART_Kycia_Niemczynowicz/Kycia_Niemczynowicz.bib'
+[3469] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Woszczek/Woszczek.bib' for section 4
+[3489] bibtex.pm:1682> INFO - LaTeX decoding ...
+[3781] bibtex.pm:1494> INFO - Found BibTeX data source 'ART_Woszczek/Woszczek.bib'
+[3798] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Kus/Kus.bib' for section 4
+[3812] bibtex.pm:1682> INFO - LaTeX decoding ...
+[3890] bibtex.pm:1494> INFO - Found BibTeX data source 'ART_Kus/Kus.bib'
+[3896] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Stopa/Stopa.bib' for section 4
+[3909] bibtex.pm:1682> INFO - LaTeX decoding ...
+[3973] bibtex.pm:1494> INFO - Found BibTeX data source 'ART_Stopa/Stopa.bib'
+[4161] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[4161] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[4161] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
+[4193] Biber.pm:4334> INFO - Processing section 5
+[4193] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 5
+[4197] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Marquis/Marquis.bib' for section 5
+[4201] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Semadeni/Semadeni.bib' for section 5
+[4205] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_McLarty/McLarty.bib' for section 5
+[4209] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Majid/Majid.bib' for section 5
+[4212] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Kycia_Niemczynowicz/Kycia_Niemczynowicz.bib' for section 5
+[4216] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Woszczek/Woszczek.bib' for section 5
+[4220] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Kus/Kus.bib' for section 5
+[4392] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[4393] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[4393] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
+[4421] Biber.pm:4334> INFO - Processing section 6
+[4422] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 6
+[4426] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Marquis/Marquis.bib' for section 6
+[4430] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Semadeni/Semadeni.bib' for section 6
+[4434] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_McLarty/McLarty.bib' for section 6
+[4439] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Majid/Majid.bib' for section 6
+[4443] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Kycia_Niemczynowicz/Kycia_Niemczynowicz.bib' for section 6
+[4446] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Woszczek/Woszczek.bib' for section 6
+[5312] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[5312] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[5312] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
+[5444] Biber.pm:4334> INFO - Processing section 7
+[5444] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 7
+[5449] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Marquis/Marquis.bib' for section 7
+[5452] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Semadeni/Semadeni.bib' for section 7
+[5457] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_McLarty/McLarty.bib' for section 7
+[5461] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Majid/Majid.bib' for section 7
+[5774] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[5775] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[5775] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
+[5824] Biber.pm:4334> INFO - Processing section 8
+[5824] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 8
+[5828] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Marquis/Marquis.bib' for section 8
+[5832] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Semadeni/Semadeni.bib' for section 8
+[5836] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_McLarty/McLarty.bib' for section 8
+[5839] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Majid/Majid.bib' for section 8
+[5843] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Kycia_Niemczynowicz/Kycia_Niemczynowicz.bib' for section 8
+[6031] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[6031] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[6031] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
+[6064] Biber.pm:4334> INFO - Processing section 9
+[6064] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 9
+[6324] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[6324] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[6324] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
+[6366] Biber.pm:4334> INFO - Processing section 10
+[6366] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 10
+[6370] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Marquis/Marquis.bib' for section 10
+[6375] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Semadeni/Semadeni.bib' for section 10
+[6378] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_McLarty/McLarty.bib' for section 10
+[6382] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Majid/Majid.bib' for section 10
+[6385] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Kycia_Niemczynowicz/Kycia_Niemczynowicz.bib' for section 10
+[6390] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Woszczek/Woszczek.bib' for section 10
+[6394] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Kus/Kus.bib' for section 10
+[6397] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Stopa/Stopa.bib' for section 10
+[6401] Biber.pm:4523> INFO - Looking for bibtex format file 'REC_Stopa/Stopa.bib' for section 10
+[6412] bibtex.pm:1682> INFO - LaTeX decoding ...
+[6440] bibtex.pm:1494> INFO - Found BibTeX data source 'REC_Stopa/Stopa.bib'
+[6523] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[6523] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[6523] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
+[6535] Biber.pm:4334> INFO - Processing section 11
+[6535] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Heller_Awodey/Heller_Awodey.bib' for section 11
+[6539] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Marquis/Marquis.bib' for section 11
+[6543] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Semadeni/Semadeni.bib' for section 11
+[6547] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_McLarty/McLarty.bib' for section 11
+[6551] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Majid/Majid.bib' for section 11
+[6555] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Kycia_Niemczynowicz/Kycia_Niemczynowicz.bib' for section 11
+[6560] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Woszczek/Woszczek.bib' for section 11
+[6564] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Kus/Kus.bib' for section 11
+[6567] Biber.pm:4523> INFO - Looking for bibtex format file 'ART_Stopa/Stopa.bib' for section 11
+[6570] Biber.pm:4523> INFO - Looking for bibtex format file 'REC_Stopa/Stopa.bib' for section 11
+[6574] Biber.pm:4523> INFO - Looking for bibtex format file 'REC_Krzanowski/Krzanowski.bib' for section 11
+[6582] bibtex.pm:1682> INFO - LaTeX decoding ...
+[6595] bibtex.pm:1494> INFO - Found BibTeX data source 'REC_Krzanowski/Krzanowski.bib'
+[6633] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[6633] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[6633] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pl-PL'
+[6637] bbl.pm:651> INFO - Writing '_main.bbl' with encoding 'UTF-8'
+[6638] bbl.pm:652> INFO - Converting UTF-8 to TeX macros on output to .bbl
+[7296] bbl.pm:754> INFO - Output to _main.bbl
+[7308] Biber.pm:128> INFO - WARNINGS: 2

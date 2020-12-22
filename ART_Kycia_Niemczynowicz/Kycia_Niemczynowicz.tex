@@ -116,10 +116,11 @@ Bennett's explanation solves the long-standing paradox by employing Landauer's i
 \section{Memory}
 %%%%%%%%%%%%%%%%%%%%%%%
 Szilard's \textit{gedanken experiment} presented in the previous section can be used to construct a thermodynamic model of computer memory. We consider here the simplest case; a more detailed presentation for general memory for multivalued logic is given in \parencite{KyciaNiemczynowicz}.
+%\enlargethispage{.5\baselineskip}
 
 The implementation of a single bit thermodynamic memory is presented in Fig. \ref{Fig.BinaryCell}.
 %%%%%%%%%%%
-\begin{figure}
+\begin{figure}[ht]
 \centering
  \includegraphics[width=0.7\textwidth]{ART_Kycia_Niemczynowicz/BinaryGalois-bw.png}
  \caption{Implementation of memory using the thermodynamic model of the reversed Szilard's model of Maxwell's demon. State $a$ is not associated with logical value: it is an undetermined internal state of the memory, which can be associated with $0$ at the logical level. State $b$ represents $0$, and state $c$ represents $1$. Maps $f$ and $g$, associating logical values with their physical implementation, are selected in such a way to preserve the order indicated by black lines representing transitions between states or ordering in Boolean algebra, that is, logic. This is a reminiscence of the Galois connection \parencite{SpivakSketches, CategoryGentleIntroduction, KyciaLandauer} that usually occurs where there is a system that contains an abstract level and its implementation.}

@@ -16941,7 +16941,7 @@
       \verb https://doi.org/10.1007/s000120300002
       \endverb
     \endentry
-    \entry{Awodey2019}{misc}{}
+    \entry{Awodey2019}{incollection}{}
       \name{author}{1}{}{%
         {{hash=b8171e993b0288bf0b7716cdcc9aa013}{%
            family={Awodey},
@@ -16949,8 +16949,20 @@
            given={Steve},
            giveni={S\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {en}%
+      \name{editor}{2}{}{%
+        {{hash=90a7378ce555a39b3f09cdc65ae8c8c6}{%
+           family={Casadio},
+           familyi={C\bibinitperiod},
+           given={Claudia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c2de2b1910a52dd750f03dbf592643b3}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={Philip\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
       }
       \strng{namehash}{b8171e993b0288bf0b7716cdcc9aa013}
       \strng{fullhash}{b8171e993b0288bf0b7716cdcc9aa013}
@@ -16958,20 +16970,19 @@
       \strng{authorbibnamehash}{b8171e993b0288bf0b7716cdcc9aa013}
       \strng{authornamehash}{b8171e993b0288bf0b7716cdcc9aa013}
       \strng{authorfullhash}{b8171e993b0288bf0b7716cdcc9aa013}
+      \strng{editorbibnamehash}{5c3b79b5e67eb053cc4901ed2f263db8}
+      \strng{editornamehash}{5c3b79b5e67eb053cc4901ed2f263db8}
+      \strng{editorfullhash}{5c3b79b5e67eb053cc4901ed2f263db8}
       \field{sortinit}{A}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The fundamental duality theories relating algebra and geometry that were discovered in the mid-20th century can also be applied to logic via its algebraization under categorical logic. They thereby result in known and new completeness theorems. This idea can be taken even further via what is sometimes called \textquotedblleft{}categoriﬁcation\textquotedblright{} to establish a new connection between logic and geometry, a glimpse of which can also be had in topos theory.}
+      \field{booktitle}{Joachim Lambek: The Interplay of Mathematics, Logic, and Linguistics}
+      \field{isbn}{978-3-030-66545-6}
       \field{title}{Sheaf {Representations} and {Duality} in {Logic}}
-      \field{year}{2019}
-      \field{pages}{19}
-      \range{pages}{1}
-      \verb{file}
-      \verb Awodey - Sheaf Representations and Duality in Logic.pdf:/home/pawel/.zotero/zotero/2felkxqq.default/zotero/storage/ER2DTDZH/Awodey - Sheaf Representations and Duality in Logic.pdf:application/pdf
-      \endverb
+      \field{year}{2021}
     \endentry
     \entry{AF}{article}{}
       \name{author}{2}{}{%

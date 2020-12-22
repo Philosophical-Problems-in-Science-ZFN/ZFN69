@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.19)  20 DEC 2020 21:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.19)  22 DEC 2020 22:54
 entering extended mode
 **./_main.tex
 (_main.tex
@@ -2380,46 +2380,46 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'polish'.
-LaTeX Font Info:    Trying to load font information for T1+txr on input line 10
-82.
+LaTeX Font Info:    Trying to load font information for T1+txr on input line 11
+16.
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/txfonts\t1txr.fd"
 File: t1txr.fd 2000/12/15 v3.1
 ) (_main.aux)
 \openout1 = `_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1082.
-LaTeX Font Info:    ... okay on input line 1082.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 1082.
-LaTeX Font Info:    ... okay on input line 1082.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 1082.
-LaTeX Font Info:    ... okay on input line 1082.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 1082.
-LaTeX Font Info:    ... okay on input line 1082.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 1082.
-LaTeX Font Info:    ... okay on input line 1082.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 1082.
-LaTeX Font Info:    ... okay on input line 1082.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 1082.
-LaTeX Font Info:    ... okay on input line 1082.
-LaTeX Font Info:    Checking defaults for X2/cmr/m/n on input line 1082.
-LaTeX Font Info:    Trying to load font information for X2+cmr on input line 10
-82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1116.
+LaTeX Font Info:    ... okay on input line 1116.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 1116.
+LaTeX Font Info:    ... okay on input line 1116.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 1116.
+LaTeX Font Info:    ... okay on input line 1116.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 1116.
+LaTeX Font Info:    ... okay on input line 1116.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 1116.
+LaTeX Font Info:    ... okay on input line 1116.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 1116.
+LaTeX Font Info:    ... okay on input line 1116.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 1116.
+LaTeX Font Info:    ... okay on input line 1116.
+LaTeX Font Info:    Checking defaults for X2/cmr/m/n on input line 1116.
+LaTeX Font Info:    Trying to load font information for X2+cmr on input line 11
+16.
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/cyrillic\x2cmr.fd"
 File: x2cmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 1082.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 1082.
-LaTeX Font Info:    ... okay on input line 1082.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 1082.
+LaTeX Font Info:    ... okay on input line 1116.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 1116.
+LaTeX Font Info:    ... okay on input line 1116.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 1116.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 1
-082.
+116.
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/cbfonts-fd\lgrcmr.fd"
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 1082.
+LaTeX Font Info:    ... okay on input line 1116.
 
 ("D:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -2452,15 +2452,15 @@ ABD: EverySelectfont initializing macros
 LaTeX Warning: Command \selectfont   has changed.
                Check if current package is valid.
 
-LaTeX Info: Redefining \selectfont on input line 1082.
-LaTeX Info: Redefining \microtypecontext on input line 1082.
+LaTeX Info: Redefining \selectfont on input line 1116.
+LaTeX Info: Redefining \microtypecontext on input line 1116.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 1082.
+LaTeX Info: Redefining \showhyphens on input line 1116.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -2473,7 +2473,7 @@ Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 1082.
+Package hyperref Info: Link coloring ON on input line 1116.
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -2486,15 +2486,15 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count530
 )
-LaTeX Info: Redefining \ref on input line 1082.
-LaTeX Info: Redefining \pageref on input line 1082.
-LaTeX Info: Redefining \nameref on input line 1082.
+LaTeX Info: Redefining \ref on input line 1116.
+LaTeX Info: Redefining \pageref on input line 1116.
+LaTeX Info: Redefining \nameref on input line 1116.
 
 (_main.out) (_main.out)
 \@outlinefile=\write8
 \openout8 = `_main.out'.
 
-LaTeX Info: Redefining \th on input line 1082.
+LaTeX Info: Redefining \th on input line 1116.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2534,9 +2534,9 @@ Package geometry Warning: The marginal notes overrun the paper.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package crop Info: requested driver: `' on input line 1082.
-Package crop Info: detected driver: `pdftex' on input line 1082.
-Package crop Info: using `pdftex' graphics driver on input line 1082.
+Package crop Info: requested driver: `' on input line 1116.
+Package crop Info: detected driver: `pdftex' on input line 1116.
+Package crop Info: using `pdftex' graphics driver on input line 1116.
 ("D:\Program Files\MiKTeX 2.9\tex/latex/upquote\upquote.sty"
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
@@ -2617,16 +2617,16 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '_main.bbl' found.
  (_main.bbl)
-Package biblatex Info: Reference section=0 on input line 1082.
-Package biblatex Info: Reference segment=0 on input line 1082.
-LaTeX Font Info:    Calculating math sizes for size <10.3> on input line 1082.
+Package biblatex Info: Reference section=0 on input line 1116.
+Package biblatex Info: Reference segment=0 on input line 1116.
+LaTeX Font Info:    Calculating math sizes for size <10.3> on input line 1116.
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/microtype\mt-cmr.cfg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 108
-2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 111
+6.
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -2634,8 +2634,8 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ("D:\Program Files\MiKTeX 2.9\tex/latex/microtype\mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 108
-2.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 111
+6.
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2644,16 +2644,16 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 1
-082.
+116.
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/stmaryrd\ustmry.fd")
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 10
-82.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 11
+16.
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Package xypdf Info: Line width: 0.41199pt on input line 1082.
+Package xypdf Info: Line width: 0.41199pt on input line 1116.
  (pierwsza.tex
 LaTeX Font Info:    Trying to load font information for T1+MyriadPro-OsF on inp
 ut line 4.
@@ -2701,10 +2701,10 @@ Package microtype Info: Loading generic protrusion settings for font family
 <images/ccp.pdf, id=48, 390.00806pt x 217.22957pt>
 File: images/ccp.pdf Graphic file (type pdf)
 <use images/ccp.pdf>
-Package pdftex.def Info: images/ccp.pdf  used on input line 79.
+Package pdftex.def Info: images/ccp.pdf  used on input line 80.
 (pdftex.def)             Requested size: 81.68597pt x 45.4969pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
@@ -2728,71 +2728,71 @@ nt MyriadPro-Regular-osf-t1.vf ignored.
 character width mismatch in font MyriadPro-Regular-osf-t1.vf ignored
 character width mismatch in font MyriadPro-Regular-osf-t1.vf ignored <./images/
 ccp.pdf>]
-LaTeX Font Info:    Calculating math sizes for size <18> on input line 1105.
+LaTeX Font Info:    Calculating math sizes for size <18> on input line 1139.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 1105.
+(Font)              size <17.28> substituted on input line 1139.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <12.59995> not available
-(Font)              size <12> substituted on input line 1105.
+(Font)              size <12> substituted on input line 1139.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <18> not available
-(Font)              size <17.28> substituted on input line 1105.
+(Font)              size <17.28> substituted on input line 1139.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <12.59995> not available
-(Font)              size <12> substituted on input line 1105.
+(Font)              size <12> substituted on input line 1139.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 1105.
+(Font)              size <17.28> substituted on input line 1139.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <12.59995> not available
-(Font)              size <12> substituted on input line 1105.
+(Font)              size <12> substituted on input line 1139.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 1105.
+(Font)              size <17.28> substituted on input line 1139.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <12.59995> not available
-(Font)              size <12> substituted on input line 1105.
+(Font)              size <12> substituted on input line 1139.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <18> not available
-(Font)              size <17.28> substituted on input line 1105.
+(Font)              size <17.28> substituted on input line 1139.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <12.59995> not available
-(Font)              size <12> substituted on input line 1105.
+(Font)              size <12> substituted on input line 1139.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 1105.
+(Font)              size <17.28> substituted on input line 1139.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <12.59995> not available
-(Font)              size <12> substituted on input line 1105.
+(Font)              size <12> substituted on input line 1139.
 
 
 LaTeX Font Warning: Font shape `U/stmry/m/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 1105.
+(Font)              size <17.28> substituted on input line 1139.
 
 
 LaTeX Font Warning: Font shape `U/stmry/m/n' in size <12.59995> not available
-(Font)              size <12> substituted on input line 1105.
+(Font)              size <12> substituted on input line 1139.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 1105.
+(Font)              size <17.28> substituted on input line 1139.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <12.59995> not available
-(Font)              size <12> substituted on input line 1105.
+(Font)              size <12> substituted on input line 1139.
 
 (_main.toc [3
 
@@ -2831,7 +2831,84 @@ character width mismatch in font MyriadPro-Bold-osf-t1.vf ignored] [6
 
 
 ]
-(ART_McLarty/McLarty.tex
+(EDI/editorial-PU.tex
+Package lettrine.sty Info: Targeted height = 19.65988pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 22.21587pt (``I) loversize=0.13;
+(lettrine.sty)             reported on input line 14.
+LaTeX Font Info:    Calculating math sizes for size <9.3> on input line 20.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.50996> not available
+(Font)              size <7> substituted on input line 20.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.50996> not available
+(Font)              size <7> substituted on input line 20.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.50996> not available
+(Font)              size <7> substituted on input line 20.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <6.50996> not available
+(Font)              size <7> substituted on input line 20.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <6.50996> not available
+(Font)              size <7> substituted on input line 20.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <6.50996> not available
+(Font)              size <7> substituted on input line 20.
+
+
+LaTeX Font Warning: Font shape `U/stmry/m/n' in size <6.50996> not available
+(Font)              size <7> substituted on input line 20.
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <6.50996> not available
+(Font)              size <7> substituted on input line 20.
+
+<images/CC-BY-NC-ND.png, id=109, 513.92pt x 180.675pt>
+File: images/CC-BY-NC-ND.png Graphic file (type png)
+<use images/CC-BY-NC-ND.png>
+Package pdftex.def Info: images/CC-BY-NC-ND.png  used on input line 20.
+(pdftex.def)             Requested size: 27.01492pt x 9.5pt.
+[7
+
+
+
+checksum mismatch in font MyriadPro-Regular-osf-t1.vf ignored
+design size mismatch in local font MyriadPro-Regular-osf-t1--base in virtual fo
+nt MyriadPro-Regular-osf-t1.vf ignored.
+character width mismatch in font MyriadPro-Regular-osf-t1.vf ignored
+character width mismatch in font MyriadPro-Regular-osf-t1.vf ignored
+checksum mismatch in font MyriadPro-Light-osf-t1.vf ignored
+design size mismatch in font MyriadPro-Light-osf-t1.vf ignored
+design size mismatch in local font MyriadPro-Light-osf-t1--base in virtual font
+ MyriadPro-Light-osf-t1.vf ignored.
+character width mismatch in font MyriadPro-Light-osf-t1.vf ignored <./images/CC
+-BY-NC-ND.png>] [8] [9
+checksum mismatch in font MyriadPro-It-osf-t1.vf ignored
+design size mismatch in font MyriadPro-It-osf-t1.vf ignored
+character width mismatch in font MyriadPro-It-osf-t1.vf ignored
+character width mismatch in font MyriadPro-It-osf-t1.vf ignored
+character width mismatch in font MyriadPro-It-osf-t1.vf ignored
+character width mismatch in font MyriadPro-It-osf-t1.vf ignored] [10]
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 3
+6.
+
+("D:\Program Files\MiKTeX 2.9\tex/latex/txfonts\ts1txr.fd"
+File: ts1txr.fd 2000/12/15 v3.1
+) [11] [12]) [13]
+[14
+
+
+] [15] [16
+
+
+] (ART_McLarty/McLarty.tex
 \blx@maxsegment@1=\count534
 \blx@sectionciteorder@1=\count535
 Package biblatex Info: Reference section=1 on input line 7.
@@ -2874,78 +2951,22 @@ LaTeX Font Warning: Font shape `U/stmry/m/n' in size <4.15> not available
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <4.15> not available
 (Font)              size <5> substituted on input line 16.
 
-LaTeX Font Info:    Calculating math sizes for size <9.3> on input line 19.
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.50996> not available
-(Font)              size <7> substituted on input line 19.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.50996> not available
-(Font)              size <7> substituted on input line 19.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.50996> not available
-(Font)              size <7> substituted on input line 19.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <6.50996> not available
-(Font)              size <7> substituted on input line 19.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <6.50996> not available
-(Font)              size <7> substituted on input line 19.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <6.50996> not available
-(Font)              size <7> substituted on input line 19.
-
-
-LaTeX Font Warning: Font shape `U/stmry/m/n' in size <6.50996> not available
-(Font)              size <7> substituted on input line 19.
-
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <6.50996> not available
-(Font)              size <7> substituted on input line 19.
-
-<images/CC-BY-NC-ND.png, id=112, 513.92pt x 180.675pt>
 File: images/CC-BY-NC-ND.png Graphic file (type png)
 <use images/CC-BY-NC-ND.png>
 Package pdftex.def Info: images/CC-BY-NC-ND.png  used on input line 19.
 (pdftex.def)             Requested size: 27.01492pt x 9.5pt.
-[7
+[17
 
 
-
-checksum mismatch in font MyriadPro-Regular-osf-t1.vf ignored
-design size mismatch in local font MyriadPro-Regular-osf-t1--base in virtual fo
-nt MyriadPro-Regular-osf-t1.vf ignored.
-character width mismatch in font MyriadPro-Regular-osf-t1.vf ignored
-character width mismatch in font MyriadPro-Regular-osf-t1.vf ignored
-checksum mismatch in font MyriadPro-Light-osf-t1.vf ignored
-design size mismatch in font MyriadPro-Light-osf-t1.vf ignored
-design size mismatch in local font MyriadPro-Light-osf-t1--base in virtual font
- MyriadPro-Light-osf-t1.vf ignored.
-character width mismatch in font MyriadPro-Light-osf-t1.vf ignored <./images/CC
--BY-NC-ND.png>] [8
+] [18
 checksum mismatch in font MyriadPro-Semibold-osf-t1.vf ignored
 design size mismatch in local font MyriadPro-Semibold-osf-t1--base in virtual f
 ont MyriadPro-Semibold-osf-t1.vf ignored.
-character width mismatch in font MyriadPro-Semibold-osf-t1.vf ignored] [9
-checksum mismatch in font MyriadPro-It-osf-t1.vf ignored
-design size mismatch in font MyriadPro-It-osf-t1.vf ignored
-character width mismatch in font MyriadPro-It-osf-t1.vf ignored
-character width mismatch in font MyriadPro-It-osf-t1.vf ignored
-character width mismatch in font MyriadPro-It-osf-t1.vf ignored
-character width mismatch in font MyriadPro-It-osf-t1.vf ignored] [10] [11]
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
-6.
-
-("D:\Program Files\MiKTeX 2.9\tex/latex/txfonts\ts1txr.fd"
-File: ts1txr.fd 2000/12/15 v3.1
-) [12] [13] [14]
-[15] [16] [17] [18] [19] [20] [21]
+character width mismatch in font MyriadPro-Semibold-osf-t1.vf ignored] [19]
+[20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31]
 Package biblatex Info: Reference section=0 on input line 145.
-) (ART_Semadeni/Semadeni.tex [22]
+)
+(ART_Semadeni/Semadeni.tex [32]
 \blx@maxsegment@2=\count536
 \blx@sectionciteorder@2=\count537
 Package biblatex Info: Reference section=2 on input line 30.
@@ -2964,10 +2985,10 @@ File: images/CC-BY-NC-ND.png Graphic file (type png)
 <use images/CC-BY-NC-ND.png>
 Package pdftex.def Info: images/CC-BY-NC-ND.png  used on input line 50.
 (pdftex.def)             Requested size: 27.01492pt x 9.5pt.
- [23
+ [33
 
 
-] [24] [25]pdfTeX warning (ext4): destination with the same identifier (name{se
+] [34] [35]pdfTeX warning (ext4): destination with the same identifier (name{se
 ction.0.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -2976,31 +2997,31 @@ l.116 \section{Background conceptions}
 Overfull \vbox (2.20032pt too high) has occurred while \output is active []
 
 
-[26] [27]
+[36] [37]
 LaTeX Font Info:    Trying to load font information for LGR+txr on input line 1
 61.
  ("D:\Program Files\MiKTeX 2.9\tex/latex/txfontsb\lgrtxr.fd")
 LaTeX Font Info:    Font shape `LGR/txr/m/n' will be
 (Font)              scaled to size 10.3pt on input line 161.
- [28]
-[29] [30]pdfTeX warning (ext4): destination with the same identifier (name{sect
+ [38]
+[39] [40]pdfTeX warning (ext4): destination with the same identifier (name{sect
 ion.0.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.267 \section{Developmental successors}
-                                         [31] [32] [33] [34]
+                                         [41] [42] [43] [44]
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <10.3> not available
 (Font)              Font shape `T1/txr/bx/n' tried instead on input line 380.
- [35]pdfTeX warning (ext4): destination with the same identifier (name{section.
+ [45]pdfTeX warning (ext4): destination with the same identifier (name{section.
 0.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.400 \section{The rise of category theory (CT)}
-                                                 [36] [37]
+                                                 [46] [47]
 Overfull \vbox (7.14304pt too high) has occurred while \output is active []
 
 
-[38] [39
+[48] [49
 checksum mismatch in font MyriadPro-It-osf-t1.vf ignored
 design size mismatch in font MyriadPro-It-osf-t1.vf ignored
 character width mismatch in font MyriadPro-It-osf-t1.vf ignored
@@ -3010,26 +3031,26 @@ character width mismatch in font MyriadPro-It-osf-t1.vf ignored]
 Overfull \vbox (2.23683pt too high) has occurred while \output is active []
 
 
-[40] [41] [42] [43] [44] [45] [46]
+[50] [51] [52] [53] [54] [55] [56]
 Overfull \vbox (7.14304pt too high) has occurred while \output is active []
 
 
-[47] [48] [49] [50]
+[57] [58] [59] [60]
 Underfull \hbox (badness 1622) in paragraph at lines 819--819
 [][]\T1/txr/m/n/9.3 (+20) Carnap, R., 1934. \T1/txr/m/it/9.3 (+20) Lo-gis-che S
 yn-tax der Sprache\T1/txr/m/n/9.3 (+20) , \T1/txr/m/it/9.3 (+20) Schriften zur 
 Wis-
  []
 
-[51] [52]
+[61] [62]
 Underfull \hbox (badness 2126) in paragraph at lines 819--819
 [][]\T1/txr/m/n/9.3 (+20) Kotarbi«ski, T., 1929. \T1/txr/m/it/9.3 (+20) El-e-me
 nty teorji poz-na-nia, logiki for-mal-nej i
  []
 
-[53] [54]
+[63] [64]
 Package biblatex Info: Reference section=0 on input line 819.
-) (ART_Marquis/Marquis.tex [55] [56
+) (ART_Marquis/Marquis.tex [65] [66
 
 
 ]
@@ -3051,18 +3072,18 @@ File: images/CC-BY-NC-ND.png Graphic file (type png)
 <use images/CC-BY-NC-ND.png>
 Package pdftex.def Info: images/CC-BY-NC-ND.png  used on input line 17.
 (pdftex.def)             Requested size: 27.01492pt x 9.5pt.
- [57
+ [67
 checksum mismatch in font MyriadPro-Bold-osf-t1.vf ignored
 design size mismatch in local font MyriadPro-Bold-osf-t1--base in virtual font 
 MyriadPro-Bold-osf-t1.vf ignored.
-character width mismatch in font MyriadPro-Bold-osf-t1.vf ignored] [58]
-[59]pdfTeX warning (ext4): destination with the same identifier (name{section.0
+character width mismatch in font MyriadPro-Bold-osf-t1.vf ignored] [68]
+[69]pdfTeX warning (ext4): destination with the same identifier (name{section.0
 .2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.29 ...t structures of logic:\\setting the stage}
-                                                   [60] [61] [62] [63] [64]
-[65]pdfTeX warning (ext4): destination with the same identifier (name{section.0
+                                                   [70] [71] [72] [73] [74]
+[75]pdfTeX warning (ext4): destination with the same identifier (name{section.0
 .3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -3071,46 +3092,46 @@ l.54 ...Categories as abstract logical structures}
 Overfull \vbox (3.36536pt too high) has occurred while \output is active []
 
 
-[66] [67]
+[76] [77]
 Underfull \hbox (badness 7540) in paragraph at lines 80--81
 []\T1/txr/m/n/10.3 (+20) Each sort $\OML/cmm/m/it/10 S[]$ \T1/txr/m/n/10.3 (+20
 ) comes with in-finitely many vari-ables
  []
 
-[68] [69]
+[78] [79]
 Overfull \vbox (4.54303pt too high) has occurred while \output is active []
 
 
-[70] [71] [72]
+[80] [81] [82]
 Overfull \vbox (4.54303pt too high) has occurred while \output is active []
 
 
-[73] [74] [75] [76] [77]
+[83] [84] [85] [86] [87]
 Overfull \vbox (1.84172pt too high) has occurred while \output is active []
 
 
-[78] [79]pdfTeX warning (ext4): destination with the same identifier (name{sect
+[88] [89]pdfTeX warning (ext4): destination with the same identifier (name{sect
 ion.0.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.239 ...s from an abstract structural standpoint}
-                                                   [80] [81] [82] [83]
+                                                   [90] [91] [92] [93]
 Overfull \vbox (5.01439pt too high) has occurred while \output is active []
 
 
-[84] [85]
+[94] [95]
 Overfull \vbox (7.07167pt too high) has occurred while \output is active []
 
 
-[86] [87] [88] [89] [90]pdfTeX warning (ext4): destination with the same identi
-fier (name{section.0.5}) has been already used, duplicate ignored
+[96] [97] [98] [99] [100]pdfTeX warning (ext4): destination with the same ident
+ifier (name{section.0.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.309 \section{Conclusion}
-                           [91] [92] [93] [94] [95] [96] [97] [98] [99]
+                           [101] [102] [103] [104] [105] [106] [107] [108]
+[109]
 Package biblatex Info: Reference section=0 on input line 317.
-)
-(ART_Stopa/Stopa.tex [100]
+) (ART_Stopa/Stopa.tex [110]
 \blx@maxsegment@4=\count540
 \blx@sectionciteorder@4=\count541
 Package biblatex Info: Reference section=4 on input line 12.
@@ -3129,7 +3150,7 @@ File: images/CC-BY-NC-ND.png Graphic file (type png)
 <use images/CC-BY-NC-ND.png>
 Package pdftex.def Info: images/CC-BY-NC-ND.png  used on input line 20.
 (pdftex.def)             Requested size: 27.01492pt x 9.5pt.
- [101
+ [111
 
 
 
@@ -3137,7 +3158,7 @@ checksum mismatch in font MyriadPro-Regular-osf-t1.vf ignored
 design size mismatch in local font MyriadPro-Regular-osf-t1--base in virtual fo
 nt MyriadPro-Regular-osf-t1.vf ignored.
 character width mismatch in font MyriadPro-Regular-osf-t1.vf ignored
-character width mismatch in font MyriadPro-Regular-osf-t1.vf ignored] [102]pdfT
+character width mismatch in font MyriadPro-Regular-osf-t1.vf ignored] [112]pdfT
 eX warning (ext4): destination with the same identifier (name{section.0.2}) has
  been already used, duplicate ignored
 <to be read again> 
@@ -3147,12 +3168,12 @@ l.27 ...on{Introduction to the alleged co-toposes}
 Overfull \vbox (2.40031pt too high) has occurred while \output is active []
 
 
-[103] [104] [105
+[113] [114] [115
 checksum mismatch in font MyriadPro-Regular-osf-t1.vf ignored
 design size mismatch in local font MyriadPro-Regular-osf-t1--base in virtual fo
 nt MyriadPro-Regular-osf-t1.vf ignored.
 character width mismatch in font MyriadPro-Regular-osf-t1.vf ignored
-character width mismatch in font MyriadPro-Regular-osf-t1.vf ignored] [106
+character width mismatch in font MyriadPro-Regular-osf-t1.vf ignored] [116
 checksum mismatch in font MyriadPro-Regular-osf-l1-t1.vf ignored
 design size mismatch in local font MyriadPro-Regular-osf-l1-t1--base in virtual
  font MyriadPro-Regular-osf-l1-t1.vf ignored.
@@ -3162,33 +3183,33 @@ checksum mismatch in font MyriadPro-Semibold-osf-l1-t1.vf ignored
 design size mismatch in local font MyriadPro-Semibold-osf-l1-t1--base in virtua
 l font MyriadPro-Semibold-osf-l1-t1.vf ignored.
 character width mismatch in font MyriadPro-Semibold-osf-l1-t1.vf ignored]
-[107]pdfTeX warning (ext4): destination with the same identifier (name{section.
+[117]pdfTeX warning (ext4): destination with the same identifier (name{section.
 0.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.99 \section{The subobject classifier}
-                                        [108]
+                                        [118]
 Overfull \hbox (0.76283pt too wide) in paragraph at lines 118--119
 []\T1/txr/m/n/10.3 (-20) instead of ``...together with an arrow $[] \OT1/cmr/m/
 n/10 : [] \OMS/cmsy/m/n/10 ! \OT1/cmr/m/n/10 
 $ \T1/txr/m/n/10.3 (-20) such that ...''
  []
 
-[109] [110]pdfTeX warning (ext4): destination with the same identifier (name{se
+[119] [120]pdfTeX warning (ext4): destination with the same identifier (name{se
 ction.0.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.169 ...ion{Comments on the notion of a co-topos}
-                                                   [111] [112] [113]pdfTeX warn
+                                                   [121] [122] [123]pdfTeX warn
 ing (ext4): destination with the same identifier (name{section.0.5}) has been a
 lready used, duplicate ignored
 <to be read again> 
                    \relax 
 l.193 \section{Summary and further remarks}
-                                            [114] [115] [116] [117]
+                                            [124] [125] [126] [127]
 Package biblatex Info: Reference section=0 on input line 209.
 )
-(ART_Kus/Kus.tex [118]
+(ART_Kus/Kus.tex [128]
 \blx@maxsegment@5=\count542
 \blx@sectionciteorder@5=\count543
 Package biblatex Info: Reference section=5 on input line 8.
@@ -3201,10 +3222,10 @@ File: images/CC-BY-NC-ND.png Graphic file (type png)
 <use images/CC-BY-NC-ND.png>
 Package pdftex.def Info: images/CC-BY-NC-ND.png  used on input line 14.
 (pdftex.def)             Requested size: 27.01492pt x 9.5pt.
- [119
+ [129
 
 
-] [120] [121] [122]
+] [130] [131] [132]
 Underfull \hbox (badness 10000) in paragraph at lines 45--46
 []$[][] \OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 \OMS/cmsy/m/n/10 
 j\OML/cmm/m/it/10 ab\OT1/cmr/m/n/10 ) = [][] \OML/cmm/m/it/10 P\OT1/cmr/m/n/10 
@@ -3213,27 +3234,27 @@ txr/m/n/10.3 (+20) ; $[][] \OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
 \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 ab\OT1/cmr/m/n/10 ) =
  []
 
-[123]
-<ART_Kus/BellEx1.pdf, id=1449, 364.91336pt x 287.57437pt>
+[133]
+<ART_Kus/BellEx1.pdf, id=1493, 364.91336pt x 287.57437pt>
 File: ART_Kus/BellEx1.pdf Graphic file (type pdf)
 <use ART_Kus/BellEx1.pdf>
 Package pdftex.def Info: ART_Kus/BellEx1.pdf  used on input line 51.
 (pdftex.def)             Requested size: 197.17674pt x 155.38876pt.
- [124 <./ART_Kus/BellEx1.pdf>] [125]
+ [134 <./ART_Kus/BellEx1.pdf>] [135]
 Overfull \vbox (5.07167pt too high) has occurred while \output is active []
 
 
-[126]
+[136]
 Overfull \vbox (8.27167pt too high) has occurred while \output is active []
 
 
-[127]
+[137]
 Overfull \vbox (3.88579pt too high) has occurred while \output is active []
 
 
-[128] [129] [130] [131] [132]
+[138] [139] [140] [141] [142]
 Package biblatex Info: Reference section=0 on input line 116.
-) (ART_Woszczek/Woszczek-PU.tex [133] [134
+) (ART_Woszczek/Woszczek-PU.tex [143] [144
 
 
 ]
@@ -3250,19 +3271,12 @@ File: images/CC-BY-NC-ND.png Graphic file (type png)
 Package pdftex.def Info: images/CC-BY-NC-ND.png  used on input line 14.
 (pdftex.def)             Requested size: 27.01492pt x 9.5pt.
 
-[135] [136]pdfTeX warning (ext4): destination with the same identifier (name{se
+[145] [146]pdfTeX warning (ext4): destination with the same identifier (name{se
 ction.0.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.33 ... ontology: more than just another problem}
-                                                  
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
-Make it at least 21.96826pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[137] [138]
+                                                   [147] [148]
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <9.3> not available
 (Font)              Font shape `T1/txr/bx/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `LGR/txr/m/n' will be
@@ -3278,29 +3292,29 @@ LaTeX Font Info:    Font shape `LGR/txr/m/n' will be
 Overfull \vbox (6.80032pt too high) has occurred while \output is active []
 
 
-[139]
+[149]
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <8.3> not available
 (Font)              Font shape `T1/txr/bx/n' tried instead on input line 68.
- [140]
+ [150]
 Overfull \vbox (3.4144pt too high) has occurred while \output is active []
 
 
-[141] [142] [143] [144]pdfTeX warning (ext4): destination with the same identif
+[151] [152] [153] [154]pdfTeX warning (ext4): destination with the same identif
 ier (name{section.0.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.123 ... contextuality as a~topological property}
-                                                   [145]
+                                                   [155]
 
 LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
 (Font)              using `U/stmry/m/n' instead on input line 129.
 
-<ART_Woszczek/Woszczek.jpg, id=1747, 341.3553pt x 198.9834pt>
+<ART_Woszczek/Woszczek.jpg, id=1790, 341.3553pt x 198.9834pt>
 File: ART_Woszczek/Woszczek.jpg Graphic file (type jpg)
 <use ART_Woszczek/Woszczek.jpg>
 Package pdftex.def Info: ART_Woszczek/Woszczek.jpg  used on input line 138.
 (pdftex.def)             Requested size: 197.17674pt x 114.93983pt.
-[146] [147 <./ART_Woszczek/Woszczek.jpg>]
+[156] [157 <./ART_Woszczek/Woszczek.jpg>]
 LaTeX Font Info:    Trying to load font information for U+euf on input line 151
 .
 
@@ -3310,21 +3324,21 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 ("D:\Program Files\MiKTeX 2.9\tex/latex/microtype\mt-euf.cfg"
 File: mt-euf.cfg 2006/07/03 v1.1 microtype config. file: AMS Euler Fraktur (RS)
 
-) [148] [149]
+) [158] [159]
 
 LaTeX Font Warning: Font shape `U/stmry/b/n' in size <4.15> not available
 (Font)              size <5> substituted on input line 169.
 
-[150]
+[160]
 Overfull \vbox (3.4144pt too high) has occurred while \output is active []
 
 
-[151] [152] [153] [154]pdfTeX warning (ext4): destination with the same identif
+[161] [162] [163] [164]pdfTeX warning (ext4): destination with the same identif
 ier (name{section.0.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.224 ...niteness, not counterfactual possibility}
-                                                   [155] [156] [157]
+                                                   [165] [166] [167]
 Underfull \hbox (badness 10000) in paragraph at lines 248--255
 []\T1/txr/m/n/10.3 (+20) Furthermore, one may use the gen-eral information-
  []
@@ -3340,20 +3354,20 @@ Underfull \hbox (badness 1360) in paragraph at lines 248--255
 r-i-cal \T1/txr/m/it/10.3 (+20) or
  []
 
-[158]
+[168]
 Overfull \vbox (7.6144pt too high) has occurred while \output is active []
 
 
-[159] [160] [161] [162]
+[169] [170] [171] [172]
 Overfull \vbox (4.54303pt too high) has occurred while \output is active []
 
 
-[163]pdfTeX warning (ext4): destination with the same identifier (name{section.
+[173]pdfTeX warning (ext4): destination with the same identifier (name{section.
 0.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.306 ...quantum world without real potentiality?}
-                                                   [164] [165] [166]
+                                                   [174] [175] [176]
 Underfull \hbox (badness 10000) in paragraph at lines 345--352
 []\T1/txr/m/n/10.3 (+20) The fun-da-men-tal meta-phys-i-cal con-vic-tions such 
 as
@@ -3363,41 +3377,41 @@ as
 Overfull \vbox (4.54303pt too high) has occurred while \output is active []
 
 
-[167]pdfTeX warning (ext4): destination with the same identifier (name{section.
+[177]pdfTeX warning (ext4): destination with the same identifier (name{section.
 0.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.355 \section{Conclusion}
-                           [168]
+                           [178]
 Overfull \vbox (7.14304pt too high) has occurred while \output is active []
 
 
-[169]
+[179]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <6.50996> not available
 (Font)              size <7> substituted on input line 374.
 
-[170] [171] [172]
+[180] [181] [182]
 Underfull \hbox (badness 1590) in paragraph at lines 374--374
 \T1/txr/m/n/9.3 (+20) Kochen-Specker set and ob-ser-va-tion of its con-nec-tion
  with the
  []
 
-[173] [174] [175]
+[183] [184] [185]
 Underfull \hbox (badness 1831) in paragraph at lines 374--374
 [][]\T1/txr/m/n/9.3 (+20) Leibniz, G.W., 2009. \T1/txr/m/it/9.3 (+20) Sämtliche
  Schriften und Briefe. Zweite Reihe,
  []
 
-[176] [177]
+[186] [187]
 Underfull \hbox (badness 1281) in paragraph at lines 374--374
 [][]\T1/txr/m/n/9.3 (+20) Popper, K.R., 1967. Quan-tum me-chan-ics with-out `th
 e ob-server'. In:
  []
 
-[178]
+[188]
 Package biblatex Info: Reference section=0 on input line 374.
-) (ART_Majid/Majid.tex [179] [180
+) (ART_Majid/Majid.tex [189] [190
 
 
 ]
@@ -3419,18 +3433,18 @@ File: images/CC-BY-NC-ND.png Graphic file (type png)
 <use images/CC-BY-NC-ND.png>
 Package pdftex.def Info: images/CC-BY-NC-ND.png  used on input line 16.
 (pdftex.def)             Requested size: 27.01492pt x 9.5pt.
- [181] [182] [183]
-<ART_Majid/overview-bw.pdf, id=2175, 1026.47491pt x 368.57701pt>
+ [191] [192] [193]
+<ART_Majid/overview-bw.pdf, id=2219, 1026.47491pt x 368.57701pt>
 File: ART_Majid/overview-bw.pdf Graphic file (type pdf)
 <use ART_Majid/overview-bw.pdf>
 Package pdftex.def Info: ART_Majid/overview-bw.pdf  used on input line 33.
 (pdftex.def)             Requested size: 281.6823pt x 101.14246pt.
- [184]pdfTeX warning (ext4): destination with the same identifier (name{section
+ [194]pdfTeX warning (ext4): destination with the same identifier (name{section
 .0.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.39 \section{Outline of quantum geometry}
-                                           \label{secqg} [185 <./ART_Majid/over
+                                           \label{secqg} [195 <./ART_Majid/over
 view-bw.pdf>]pdfTeX warning (ext4): destination with the same identifier (name{
 equation.0.2.1}) has been already used, duplicate ignored
 <to be read again> 
@@ -3455,32 +3469,32 @@ warning (ext4): destination with the same identifier (name{equation.0.2.1}) has
                    \relax 
 l.42 \begin{equation}
                      \label{bimod} (a\omega)b=a(\omega b).\end{equation}
-[186]
-<ART_Majid/qgaxioms.pdf, id=2217, 571.81923pt x 303.87927pt>
+[196]
+<ART_Majid/qgaxioms.pdf, id=2261, 571.81923pt x 303.87927pt>
 File: ART_Majid/qgaxioms.pdf Graphic file (type pdf)
 <use ART_Majid/qgaxioms.pdf>
 Package pdftex.def Info: ART_Majid/qgaxioms.pdf  used on input line 50.
 (pdftex.def)             Requested size: 281.6823pt x 149.6904pt.
- [187 <./ART_Majid/qgaxioms.pdf>] [188] [189]pdfTeX warning (ext4): destination
+ [197 <./ART_Majid/qgaxioms.pdf>] [198] [199]pdfTeX warning (ext4): destination
  with the same identifier (name{section.0.3}) has been already used, duplicate 
 ignored
 <to be read again> 
                    \relax 
 l.80 ...c discrete geometry\\and Markov processes}
-                                                  \label{secmarkov} [190]
-[191]
-<ART_Majid/Markov-bw.pdf, id=2375, 481.8pt x 147.9126pt>
+                                                  \label{secmarkov} [200]
+[201]
+<ART_Majid/Markov-bw.pdf, id=2419, 481.8pt x 147.9126pt>
 File: ART_Majid/Markov-bw.pdf Graphic file (type pdf)
 <use ART_Majid/Markov-bw.pdf>
 Package pdftex.def Info: ART_Majid/Markov-bw.pdf  used on input line 121.
 (pdftex.def)             Requested size: 281.6823pt x 86.47774pt.
- [192] [193 <./ART_Majid/Markov-bw.pdf>]
+ [202] [203 <./ART_Majid/Markov-bw.pdf>]
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 136.
 
-[194] [195]
+[204] [205]
 Overfull \hbox (3.09184pt too wide) detected at line 166
 []
  []
@@ -3505,7 +3519,7 @@ m/m/it/10  \OT1/cmr/m/n/10 ) = \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 (\OML/cmm/m/it
 /10 ; \OT1/cmr/m/n/10 )\OML/cmm/m/it/10  
  []
 
-[196]
+[206]
 Overfull \hbox (4.1438pt too wide) detected at line 192
 []
  []
@@ -3515,17 +3529,17 @@ Overfull \hbox (7.73155pt too wide) detected at line 202
 []
  []
 
-[197] [198]
+[207] [208]
 Overfull \hbox (4.98503pt too wide) detected at line 228
 []
  []
 
-[199] [200] [201]
+[209] [210] [211]
 Overfull \hbox (22.68268pt too wide) detected at line 289
 []
  []
 
-[202]pdfTeX warning (ext4): destination with the same identifier (name{section.
+[212]pdfTeX warning (ext4): destination with the same identifier (name{section.
 0.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -3605,34 +3619,34 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <13> not available
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <6.5> not available
 (Font)              size <6> substituted on input line 303.
 
-[203] [204] [205] [206] [207]
-<ART_Majid/table-bw.pdf, id=2506, 481.8pt x 431.69278pt>
+[213] [214] [215] [216] [217]
+<ART_Majid/table-bw.pdf, id=2550, 481.8pt x 431.69278pt>
 File: ART_Majid/table-bw.pdf Graphic file (type pdf)
 <use ART_Majid/table-bw.pdf>
 Package pdftex.def Info: ART_Majid/table-bw.pdf  used on input line 357.
 (pdftex.def)             Requested size: 140.84114pt x 126.18893pt.
- [208]
-<ART_Majid/curvtab-bw.pdf, id=2518, 722.7pt x 458.19182pt>
+ [218]
+<ART_Majid/curvtab-bw.pdf, id=2562, 722.7pt x 458.19182pt>
 File: ART_Majid/curvtab-bw.pdf Graphic file (type pdf)
 <use ART_Majid/curvtab-bw.pdf>
 Package pdftex.def Info: ART_Majid/curvtab-bw.pdf  used on input line 380.
 (pdftex.def)             Requested size: 281.6823pt x 178.58922pt.
- [209 <./ART_Majid/table-bw.pdf>] [210 <./ART_Majid/curvtab-bw.pdf>] [211] [212
+ [219 <./ART_Majid/table-bw.pdf>] [220 <./ART_Majid/curvtab-bw.pdf>] [221] [222
 ]pdfTeX warning (ext4): destination with the same identifier (name{section.0.5}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.424 \section{Beyond de Morgan duality}
-                                        \label{secMor} [213] [214] [215]
-[216] [217] [218] [219] [220]pdfTeX warning (ext4): destination with the same i
+                                        \label{secMor} [223] [224] [225]
+[226] [227] [228] [229] [230]pdfTeX warning (ext4): destination with the same i
 dentifier (name{section.0.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.480 \section{Concluding remarks}
-                                   \label{secrem} [221] [222] [223] [224]
-[225]
+                                   \label{secrem} [231] [232] [233] [234]
+[235]
 Package biblatex Info: Reference section=0 on input line 490.
-) (ART_Kycia_Niemczynowicz/Kycia_Niemczynowicz.tex [226]
+) (ART_Kycia_Niemczynowicz/Kycia_Niemczynowicz.tex [236]
 \blx@maxsegment@8=\count548
 \blx@sectionciteorder@8=\count549
 Package biblatex Info: Reference section=8 on input line 13.
@@ -3651,10 +3665,10 @@ File: images/CC-BY-NC-ND.png Graphic file (type png)
 <use images/CC-BY-NC-ND.png>
 Package pdftex.def Info: images/CC-BY-NC-ND.png  used on input line 25.
 (pdftex.def)             Requested size: 27.01492pt x 9.5pt.
- [227
+ [237
 
 
-] [228] [229] [230]pdfTeX warning (ext4): destination with the same identifier 
+] [238] [239] [240]pdfTeX warning (ext4): destination with the same identifier 
 (name{section.0.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -3680,14 +3694,14 @@ r (name{equation.0.2.2}) has been already used, duplicate ignored
                    \relax 
 l.57 \begin{equation}
                      
-<ART_Kycia_Niemczynowicz/Demon1.png, id=2788, 730.98094pt x 339.51843pt>
+<ART_Kycia_Niemczynowicz/Demon1.png, id=2831, 730.98094pt x 339.51843pt>
 File: ART_Kycia_Niemczynowicz/Demon1.png Graphic file (type png)
 <use ART_Kycia_Niemczynowicz/Demon1.png>
 Package pdftex.def Info: ART_Kycia_Niemczynowicz/Demon1.png  used on input line
  68.
 (pdftex.def)             Requested size: 140.84114pt x 65.41577pt.
- [231]
-<ART_Kycia_Niemczynowicz/Demon2.png, id=2797, 730.98094pt x 339.51843pt>
+ [241]
+<ART_Kycia_Niemczynowicz/Demon2.png, id=2841, 730.98094pt x 339.51843pt>
 File: ART_Kycia_Niemczynowicz/Demon2.png Graphic file (type png)
 <use ART_Kycia_Niemczynowicz/Demon2.png>
 Package pdftex.def Info: ART_Kycia_Niemczynowicz/Demon2.png  used on input line
@@ -3714,13 +3728,13 @@ r (name{equation.0.2.3}) has been already used, duplicate ignored
                    \relax 
 l.85 \begin{equation}
                      
-<ART_Kycia_Niemczynowicz/Demon3.png, id=2799, 730.98094pt x 339.51843pt>
+<ART_Kycia_Niemczynowicz/Demon3.png, id=2843, 730.98094pt x 339.51843pt>
 File: ART_Kycia_Niemczynowicz/Demon3.png Graphic file (type png)
 <use ART_Kycia_Niemczynowicz/Demon3.png>
 Package pdftex.def Info: ART_Kycia_Niemczynowicz/Demon3.png  used on input line
  92.
 (pdftex.def)             Requested size: 140.84114pt x 65.41577pt.
- [232 <./ART_Kycia_Niemczynowicz/Demon1.png> <./ART_Kycia_Niemczynowicz/Demon2.
+ [242 <./ART_Kycia_Niemczynowicz/Demon1.png> <./ART_Kycia_Niemczynowicz/Demon2.
 png>]pdfTeX warning (ext4): destination with the same identifier (name{equation
 .0.2.4}) has been already used, duplicate ignored
 <to be read again> 
@@ -3761,35 +3775,36 @@ er (name{equation.0.2.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.109 \begin{equation}
-                       [233 <./ART_Kycia_Niemczynowicz/Demon3.png>]pdfTeX warni
+                       [243 <./ART_Kycia_Niemczynowicz/Demon3.png>]pdfTeX warni
 ng (ext4): destination with the same identifier (name{section.0.3}) has been al
 ready used, duplicate ignored
 <to be read again> 
                    \relax 
 l.116 \section{Memory}
                       
-<ART_Kycia_Niemczynowicz/BinaryGalois-bw.png, id=2820, 782.925pt x 387.69844pt>
+<ART_Kycia_Niemczynowicz/BinaryGalois-bw.png, id=2864, 782.925pt x 387.69844pt>
 
 File: ART_Kycia_Niemczynowicz/BinaryGalois-bw.png Graphic file (type png)
 <use ART_Kycia_Niemczynowicz/BinaryGalois-bw.png>
 Package pdftex.def Info: ART_Kycia_Niemczynowicz/BinaryGalois-bw.png  used on i
-nput line 124.
+nput line 125.
 (pdftex.def)             Requested size: 197.17674pt x 97.64017pt.
- [234] [235 <./ART_Kycia_Niemczynowicz/BinaryGalois-bw.png (PNG copy)>] [236] [
-237]pdfTeX warning (ext4): destination with the same identifier (name{section.0
-.4}) has been already used, duplicate ignored
+ [244] [245 <./ART_Kycia_Niemczynowicz/BinaryGalois-bw.png (PNG copy)>] [246]pd
+fTeX warning (ext4): destination with the same identifier (name{section.0.4}) h
+as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.183 \section{Discussion}
-                           [238]pdfTeX warning (ext4): destination with the sam
-e identifier (name{section.0.5}) has been already used, duplicate ignored
+l.184 \section{Discussion}
+                           [247] [248]pdfTeX warning (ext4): destination with t
+he same identifier (name{section.0.5}) has been already used, duplicate ignored
+
 <to be read again> 
                    \relax 
-l.197 \section{Conclusion}
-                           [239] [240] [241]
-Package biblatex Info: Reference section=0 on input line 209.
+l.198 \section{Conclusion}
+                           [249] [250] [251]
+Package biblatex Info: Reference section=0 on input line 210.
 )
-(ART_Heller_Awodey/Heller_Awodey.tex [242]
+(ART_Heller_Awodey/Heller_Awodey.tex [252]
 \blx@maxsegment@9=\count550
 \blx@sectionciteorder@9=\count551
 Package biblatex Info: Reference section=9 on input line 12.
@@ -3798,7 +3813,7 @@ File: images/CC-BY-NC-ND.png Graphic file (type png)
 <use images/CC-BY-NC-ND.png>
 Package pdftex.def Info: images/CC-BY-NC-ND.png  used on input line 12.
 (pdftex.def)             Requested size: 27.01492pt x 9.5pt.
- [243
+ [253
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{section.0.1}
@@ -3811,7 +3826,7 @@ Package lettrine.sty Info: Targeted height = 19.65988pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 22.21587pt (W) loversize=0.13;
 (lettrine.sty)             reported on input line 20.
- [244] [245] [246] [247]pdfTeX warning (ext4): destination with the same identi
+ [254] [255] [256] [257]pdfTeX warning (ext4): destination with the same identi
 fier (name{section.0.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -3820,16 +3835,16 @@ l.40 \section{Syntax and Semantics}
 Overfull \vbox (2.87167pt too high) has occurred while \output is active []
 
 
-[248] [249]pdfTeX warning (ext4): destination with the same identifier (name{se
+[258] [259]pdfTeX warning (ext4): destination with the same identifier (name{se
 ction.0.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.54 \section{Categorical Semantics}
-                                     [250] [251]
+                                     [260] [261]
 Overfull \vbox (7.40031pt too high) has occurred while \output is active []
 
 
-[252] [253]pdfTeX warning (ext4): destination with the same identifier (name{se
+[262] [263]pdfTeX warning (ext4): destination with the same identifier (name{se
 ction.0.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -3838,38 +3853,38 @@ l.118 \section{Syntax--Semantics Interaction}
 Overfull \vbox (5.2576pt too high) has occurred while \output is active []
 
 
-[254] [255]pdfTeX warning (ext4): destination with the same identifier (name{se
+[264] [265]pdfTeX warning (ext4): destination with the same identifier (name{se
 ction.0.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.152 \section{Realization and Abstraction}
-                                            [256] [257] [258] <xymatrix 2x1
-106> [259] [260]
+                                            [266] [267] [268] <xymatrix 2x1
+106> [269] [270]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [261]pdfTeX warning (ext4): destination with the same identifier (name{section
+ [271]pdfTeX warning (ext4): destination with the same identifier (name{section
 .0.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.212 \section{Categories BRAIN and MIND}
-                                          [262] [263] [264]
+                                          [272] [273] [274]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4.15> not available
 (Font)              size <5> substituted on input line 236.
 
-[265] [266]
+[275] [276]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <6.50996> not available
 (Font)              size <7> substituted on input line 252.
 
-[267] [268] [269]
+[277] [278] [279]
 Package biblatex Info: Reference section=0 on input line 252.
-) [270] [271
+) [280] [281
 
 
-] [272
+] [282
 
 
 ] (REC_Stopa/Stopa.tex
@@ -3894,7 +3909,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 273 might be wrong on input line 11
+(multicol)                Footnotes on page 283 might be wrong on input line 11
 .
 
 
@@ -3904,7 +3919,7 @@ File: images/CC-BY-NC-ND.png Graphic file (type png)
 <use images/CC-BY-NC-ND.png>
 Package pdftex.def Info: images/CC-BY-NC-ND.png  used on input line 11.
 (pdftex.def)             Requested size: 27.01492pt x 9.5pt.
- [273
+ [283
 
 
 checksum mismatch in font MyriadPro-Regular-osf-t1.vf ignored
@@ -3914,32 +3929,32 @@ character width mismatch in font MyriadPro-Regular-osf-t1.vf ignored
 character width mismatch in font MyriadPro-Regular-osf-t1.vf ignored]
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 274 might be wrong on input line 15
+(multicol)                Footnotes on page 284 might be wrong on input line 15
 .
 
 
 Overfull \vbox (8.4pt too high) has occurred while \output is active []
 
- [274]
-[275]
+ [284]
+[285]
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <9.6> not available
 (Font)              Font shape `T1/txr/bx/n' tried instead on input line 22.
- [276] [277]
+ [286] [287]
 Underfull \hbox (badness 5231) in paragraph at lines 28--29
 \T1/txr/m/it/9.6 (+20) Quantum-Mechanical Lat-tice of
  []
 
-[278]
+[288]
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 279 might be wrong on input line 32
+(multicol)                Footnotes on page 289 might be wrong on input line 32
 .
 
 
 Overfull \vbox (8.4pt too high) has occurred while \output is active []
 
- [279]
-[280] [281]
+ [289]
+[290] [291]
 Underfull \hbox (badness 10000) in paragraph at lines 43--43
 [][]\T1/txr/m/n/9.3 (+20) Heller, M., 2018. Filo-zoficznie
  []
@@ -3955,9 +3970,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--43
 9.3 (+20) [On-
  []
 
-[282]
+[292]
 Package biblatex Info: Reference section=0 on input line 43.
-) (REC_Krzanowski/Krzanowski-PU.tex [283]
+) (REC_Krzanowski/Krzanowski-PU.tex [293]
 \blx@maxsegment@11=\count554
 \blx@sectionciteorder@11=\count555
 Package biblatex Info: Reference section=11 on input line 4.
@@ -3966,35 +3981,35 @@ File: images/CC-BY-NC-ND.png Graphic file (type png)
 <use images/CC-BY-NC-ND.png>
 Package pdftex.def Info: images/CC-BY-NC-ND.png  used on input line 15.
 (pdftex.def)             Requested size: 27.01492pt x 9.5pt.
- [284
+ [294
 
 
 checksum mismatch in font MyriadPro-Regular-osf-t1.vf ignored
 design size mismatch in local font MyriadPro-Regular-osf-t1--base in virtual fo
 nt MyriadPro-Regular-osf-t1.vf ignored.
 character width mismatch in font MyriadPro-Regular-osf-t1.vf ignored
-character width mismatch in font MyriadPro-Regular-osf-t1.vf ignored] [285]
+character width mismatch in font MyriadPro-Regular-osf-t1.vf ignored] [295]
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 286 might be wrong on input line 29
+(multicol)                Footnotes on page 296 might be wrong on input line 29
 .
 
 
 Overfull \vbox (8.4pt too high) has occurred while \output is active []
 
- [286]
+ [296]
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 287 might be wrong on input line 36
+(multicol)                Footnotes on page 297 might be wrong on input line 36
 .
 
 
 Overfull \vbox (8.4pt too high) has occurred while \output is active []
 
- [287]
+ [297]
 Package biblatex Info: Reference section=0 on input line 36.
 )
-[288] (_main.aux)
+[298] (_main.aux)
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -4010,11 +4025,11 @@ Package logreq Info: Writing requests to '_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54856 strings out of 479659
- 1050192 string characters out of 2873675
- 2288887 words of memory out of 3000000
- 68233 multiletter control sequences out of 15000+200000
- 905064 words of font info for 1397 fonts, out of 3000000 for 9000
+ 54866 strings out of 479659
+ 1050399 string characters out of 2873675
+ 2290102 words of memory out of 3000000
+ 68241 multiletter control sequences out of 15000+200000
+ 904134 words of font info for 1387 fonts, out of 3000000 for 9000
  1159 hyphenation exceptions out of 8191
  106i,16n,115p,6249b,4438s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Piotr/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/MyriadPro/a_4hrml4
@@ -4070,9 +4085,9 @@ iles/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><D:/Program Files/MiKTeX 2.9/f
 onts/type1/urw/times/utmri8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/xypic/xycmat10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/xypic/xycm
 bt10.pfb>
-Output written on _main.pdf (288 pages, 11471855 bytes).
+Output written on _main.pdf (298 pages, 11493689 bytes).
 PDF statistics:
- 3722 PDF objects out of 4296 (max. 8388607)
- 892 named destinations out of 1000 (max. 500000)
+ 3771 PDF objects out of 4296 (max. 8388607)
+ 903 named destinations out of 1000 (max. 500000)
  258782 words of extra memory for PDF output out of 266212 (max. 10000000)
 
